@@ -3,7 +3,7 @@ const bgImages = document.querySelectorAll(".lazy-bg");
 
 let options = {
   rootMargin: "10px",
-  threshold: 1.0,
+  threshold: 0.5,
 };
 
 function lazyLoadImages(entries, observer) {
@@ -17,6 +17,8 @@ function lazyLoadImages(entries, observer) {
     }
   });
 }
+
+// Lazy backgrounds
 
 function lazyBackground(entries, observer) {
   entries.forEach((entry) => {

@@ -65,9 +65,9 @@ weight = 7
 
 
 [[menu.main]]
-identifier = "corporate-events"
-name = "Corporate Events"
-url = "/paintball-services/corporate-events"
+identifier = "corporate-entertainment-services"
+name = "Corporate Entertainment Services"
+url = "/paintball-services/corporate-entertainment-services"
 weight = 1
 parent = "paintball-services"
 
