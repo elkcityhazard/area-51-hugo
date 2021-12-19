@@ -23,7 +23,7 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="d-block d-md-inline-block">
-                                                    <strong ><i class="fa fa-address-card" aria-label="Author"></i></strong> <span class="px-2">{{ .Params.author }}</span> 
+                                                    <strong><i class="fa fa-address-card" aria-label="Author"></i></strong> <span class="px-2">{{ .Params.author }}</span> 
                                                 </div>
                                                 <div class="d-block d-md-inline-block">
                                                     <strong><i class="fa fa-calendar" aria-label="Date Published"></i></strong> <span class="px-2">{{ time.Format "Monday, Jan 2, 2006" .Date }}</span>
@@ -36,7 +36,7 @@
                                                 {{ end }}
                                                 {{ if .Params.end_date }}
                                                 <div class="d-block d-md-inline-block">
-                                                <strong><i class="fa fa-clock" aria-label="event date"></i><strong class="ps-2">End:</strong ></strong>
+                                                <strong><i class="fa fa-clock" aria-label="event date"></i></strong><strong class="ps-2"><small>End: </small></strong >
                                                     <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.end_date }}</span>
                                                 </div>
                                                 {{ end }}
