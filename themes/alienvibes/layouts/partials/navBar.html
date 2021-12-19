@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+        <div class="logo-container">
+            Area <span>51</span> Paintball
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto d-flex align-items-center">
+            {{- $currentPage := . -}}
+
+            {{- range .Site.Menus.main -}}
+
+                {{- if .HasChildren -}} 
+                    <li class="nav-item dropdown">
+                        <a href="{{- .URL | absURL -}}" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle {{- if $currentPage.HasMenuCurrent "main" . -}} active {{- end -}}">{{- .Name -}}</a>
+                        <div class="dropdown-menu" data-bs-popper="none">
+                            {{- range .Children -}}
+                            <a href="{{- .URL | absURL -}}" class="dropdown-item">{{ .Name }}</a>
+                            <div class="dropdown-divider"></div>
+                            {{- end -}}
+                        </div>
+                    </li>
+
+            {{- else -}}
+            <li class="nav-item d-flex align-items-center">
+                <a href="{{- .URL | absURL -}}" class="nav-link">{{- .Name -}}</a>
+            </li>
+
+            {{- end -}}
+            {{- end -}}
+        </ul>
+        <a href="tel:+12315776252" role="button" class="btn btn-outline-warning btn-small fw-normal p-3 m-2 d-block d-lg-inline-block text-uppercase"><i class="fas fa-phone"></i> (231) 577-6252 </a>
+        <a href="https://www.google.com/maps/dir//Area+51+Paintball,+3005+Westwood+Rd+NE,+Mancelona,+MI+49659/@44.8526229,-85.1135778,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x881fe32c1c982593:0xf8bb784fd02c9001!2m2!1d-85.1113891!2d44.8526191!3e0" role="button" class="btn btn-outline-warning btn-small fw-normal p-3 m-2 d-block d-lg-inline-block text-uppercase"><i class="fas fa-map-marker"></i> Directions</a>
+
+      </div>
+    </div>
+  </nav>
+  
+  
+  

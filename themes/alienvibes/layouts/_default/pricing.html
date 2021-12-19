@@ -1,0 +1,64 @@
+{{ define "main" }}
+<style type="text/css">
+    .animate-card {
+        opacity: 0;
+        position: relative;
+        transition: all 1250ms ease 100ms;
+        -webkit-transition: all 1250ms ease 100ms;
+    }
+</style>
+<header data-background="/images/backgrounds/alien-spaceship.webp"  class="lazy-bg container mx-auto d-flex align-items-center justify-content-center mt-3" style="min-height: 50vh;">
+    <div class="row">
+        <div class="col mx-auto p-3">
+            <h1 class="fw-bold" style="text-shadow: 2px 2px 5px rgba(0,0,0,1);">{{ .Title }}</h1>
+        </div>
+    </div>
+</header>
+<main class="single pricing container mx-auto p-3">
+    <section class="row justify-content-start">
+        {{ range .Params.pricing }}
+        <div class="col-12 mx-auto text-start {{ with .animate}} animate-card {{ end }}">
+            <div class="card border-info mb-3">
+                <div class="card-header">
+                    <h2 aria-label="product name" class="card-title">{{ .name | markdownify }}</h2>
+                    <strong class="ps-3"><i class="fa fa-dollar-sign fa-2x"></i> <span class="h2 card-text ps-1">{{ .price | markdownify }}</span></strong>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group-flush">
+                        {{ with .includes}}
+                        {{ range . }}
+                        <li class="list-group-item">{{ . }}</li>
+                        {{ end }}
+                    {{ end }}
+                    </ul>
+                    {{ with .extras }}
+                    <p class="ps-3 card-text">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                    {{ with .description }}
+                    <p class="p-3">{{ . }}</p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mx-auto text-center p-3">
+            <i class="fas fa-chevron-circle-down fa-3x text-warning"></i>
+        </div>
+        {{ end }}
+    </section>
+</main>
+
+<script defer>
+const cards = document.querySelectorAll('.animate-card');
+
+document.body.addEventListener('scroll', () => {
+    cards.forEach((card, index) => {
+        card.style.opacity = 1;
+        card.getBoundingClientRect().top <= window.innerHeight * (8/10) ? card.style.opacity = 1 : card.style.opacity = 0;
+
+     })
+ })
+</script>
+
+{{ end }}

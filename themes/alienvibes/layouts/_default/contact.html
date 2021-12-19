@@ -1,0 +1,45 @@
+
+{{ define "main" }}
+<header class="container-fluid my-2">
+    <div class="row">
+        <div class="col mx-auto text-center">
+            <h1 class="">{{ .Title }}</h1>
+        </div>
+    </div>
+</header>
+<section class="container">
+    <div class="row justify-content-center align-items-start">
+        <div class="col-12 col-md-3 p-2">
+            <h2 class="text-warning text-decoration-underline h5">Address</h2>
+            <address>
+                <ul class="list-group border-0 ps-0">
+                    {{ with .GetPage "footerBlock" }}
+                    {{ range .Params.address }}
+
+                    <li class="list-group-item ps-0 border-0 bg-transparent">{{ . | markdownify }}</li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </address>
+        </div>
+        <div class="col-12 col-md-3 p-2">
+            <h2 class="text-warning text-decoration-underline h5">Hours</h2>
+            <ul class="list-group border-0 ps-0">
+                {{ with .GetPage "footerBlock"}}
+                {{ range .Params.hours}}
+                <li class="list-group-item bg-transparent border-0 ps-0"><span id="day-{{ .id }}" class="day">{{ .day }}: {{ .start }} - {{ .finish }}</span></li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+        <div class="col-12 col-md-3 p-2">
+            <figure>
+                <img data-src="/images/area-51-logo.webp" alt="troopers" height="200" width="325" class="lazy fluid-img">
+            </figure>
+        </div>
+    </div>
+</section>
+
+{{ end }}
+
+ 

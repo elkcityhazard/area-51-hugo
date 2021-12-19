@@ -1,0 +1,56 @@
+@use './_components/_mixins.scss';
+@use './_components/_animations.scss';
+@use './_components/_heroHeader.scss';
+@use './_components/servicesBlock';
+@use './_components/testimonials.scss';
+@use './_components/whyChooseUs.scss';
+@use './_components/cta.scss';
+@use './_components/gallery.scss';
+@use './_components//single.scss';
+@use './_components/footer.scss';
+
+
+*,
+*::before,
+*::after {
+    // border: 1px dotted red;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.lazy {
+    @include mixins.transition;
+    opacity: 0;
+}
+
+.fadeIn {
+    @include mixins.transition;
+    opacity: 1;
+}
+
+
+
+.bg-img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+
+

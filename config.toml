@@ -1,0 +1,109 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Area 51 Paintball"
+theme = "alienvibes"
+
+[params]
+description = "Area 51 Paintball is a rustic outdoor paintball center located North of Kalkaska, Michigan."
+logo = "/images/area-51-logo.webp"
+
+
+
+[markup]
+
+[markup.goldmark.renderer]
+      unsafe = true
+
+
+
+
+#### Main Menu #####
+
+[menu]
+
+[[menu.main]]
+identifier = "paintball-center"
+name = "Paintball Center"
+url = "/paintball-center"
+weight = 1
+
+[[menu.main]]
+identifier = "paintball-services"
+name = "Paintball Services"
+url = "/paintball-services"
+weight = 2
+
+[[menu.main]]
+identifier = "events"
+name = "Events"
+url = "/events"
+weight = 3
+
+[[menu.main]]
+identifier = "gallery"
+name = "Gallery"
+url = "/gallery"
+weight = 4
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+weight = 5
+
+[[menu.main]]
+identifier = "frequently asked questions"
+name = "FAQ"
+url = "/frequently-asked-questions"
+weight = 6
+
+[[menu.main]]
+identifier = "pricing"
+name = "Pricing"
+url = "/pricing"
+weight = 7
+
+
+[[menu.main]]
+identifier = "corporate-events"
+name = "Corporate Events"
+url = "/paintball-services/corporate-events"
+weight = 1
+parent = "paintball-services"
+
+[[menu.main]]
+identifier = "walk-on-play"
+name = "Walk On Play"
+url = "/paintball-services/walk-on-play"
+weight = 2
+parent = "paintball-services"
+
+[[menu.main]]
+identifier = "paintball-parties"
+name = "Paintball Parties"
+url = "/paintball-services/paintball-parties"
+weight = 3
+parent = "paintball-services"
+
+[[menu.main]]
+identifier = "paintball-equipment-repair"
+name = "Paintball Equipment Repair"
+url = "/paintball-services/paintball-equipment-repair"
+weight = 4
+parent = "paintball-services"
+
+[[menu.main]]
+identifier = "paintball-equipment-sales"
+name = "Paintball Equipment Sales"
+url = "/paintball-services/paintball-equipment-sales"
+weight = 5
+parent = "paintball-services"
+
+[[menu.main]]
+identifier = "paintball-lessons"
+name = "Paintball Lessons"
+url = "/paintball-services/paintball-lessons"
+weight = 6
+parent = "paintball-services"
+
+

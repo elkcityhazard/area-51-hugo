@@ -1,0 +1,43 @@
+
+@use './mixins';
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cta {
+    .container {
+        .row {
+            .col-12 {
+                .shape {
+                    border: 1px solid green;
+                    border-top-right-radius: 3rem;
+                    border-bottom-right-radius: 3rem;
+                    display: grid;
+                    height: 100%;
+                    min-height: 10rem;
+                    min-width: 100px;
+                    padding: 1rem;
+                    place-items: center;
+                    svg {
+                        max-width: 350px;
+                        height: auto;
+                    }
+                    .svg-1 {
+                        @include mixins.transition;
+                        animation: fadeIn 250ms ease forwards;
+                    }
+                }
+                .shape-content {
+                    @media screen and (min-width: 968px) {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

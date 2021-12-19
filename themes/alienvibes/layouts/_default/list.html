@@ -1,0 +1,70 @@
+{{ define "main" }}
+<div class="container-fluid mx-auto ">
+    <div class="row">
+        <div class="row p-3">
+            <div class="col text-center mx-auto">
+                <h1>{{ .Title }}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-10 col-lg-8 mx-auto">
+            <main class="main-content container-fluid mx-auto mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <section class="list container-fluid mx-auto">
+                            {{ range .Pages}}
+                            <div class="row my-3">
+                                <div class="col-12">
+                                    <div class="card blog">
+                                        <div class="card-header">
+                                            <div class="col-12">
+                                                <h2 class="ps-2">{{.Title}}</h2>
+                                            </div>
+                                            <div class="col-12">
+                                                <strong><i class="fa fa-address-card" aria-label="Author"></i></strong> <span class="px-2">{{ .Params.author }}</span> 
+                                                <strong><i class="fa fa-calendar" aria-label="Date Published"></i></strong> <span class="px-2">{{ time.Format "Monday, Jan 2, 2006" .Date }}</span>
+                                                {{ if .Params.start_date }}
+                                                <strong><i class="fa fa-calendar" aria-label="event date"></i></strong> <strong class="ps-2"><small>Start:</small></strong> <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.start_date }}</span>
+                                                {{ if .Params.end_date }}
+                                                <strong class="ps-2"><small>End:</small></strong>
+                                                <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.end_date }}</span>
+                                                {{ end }}
+                                                {{ if .Params.cost }}
+                                                <strong class="ps-1"><i class="fa fa-dollar-sign" aria-label="cost of event"></i></strong> <strong class="ps-1"><small>Cost: </small></strong> <span class="ps-1">{{ .Params.cost }}</span>
+                                                {{ end }}
+                                                {{ end }}
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-3 p-2 d-flex align-items-center justify-content-center">
+                                                        {{ if .Params.img}}
+                                                        <img src="{{ .Params.img}}" class="fluid-img" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
+                                                        {{ else }}
+                                                        <img src="{{- .Site.BaseURL -}}images/area-51-logo.webp" alt="logo thumbnail" class="fluid-img" loading="lazy" decoding="async" height="100" width="100">
+                                                        {{- end -}}
+                                                    </div>
+                                                    <div class="col-12 col-md-9 p-2">
+                                                        <p> {{.Description | markdownify }}</p>
+                                                        <a href="{{- .RelPermalink | absURL -}}" title="{{.Title}}" class="btn btn-success">{{- .Title -}}</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+</div>
+{{ end }}

@@ -1,0 +1,52 @@
+<section class="why-us bg-dark text-white p-3">
+    <img data-src="{{ .Site.BaseURL}}images/backgrounds/paintball-troops.png" alt="paintball troops" class="lazy bg-image fluid-img d-none" width="1920" height="500">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col mx-auto">
+                <h3 class="text-center">Why Choose Area 51 Paintball?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 p-3 mx-auto text-center">
+                <figure class="extra-depth text-center">
+                    {{ with .Params.why_us_image}}
+                <img data-src="{{ . | absURL}}" alt="why choose us image" class="lazy img-fluid shadow-lg mb-3" width="500" height="350" style="max-height: 85vh; width: auto;">
+                {{ end }}
+                </figure>
+            </div>
+            <div class="col-12 col-md-6 p-3 mx-auto">
+                <p class="">
+                    {{ with .Params.why_us_text }}
+                    {{ . | markdownify }}
+                    {{ end }}
+                    <ul class="list-group-flush ms-0 ps-0">
+                        {{ with .Params.why_us_list }}
+                        {{ range . }}
+                        <li class="list-group-item ps-0 bg-transparent border-warning">{{ . }}</li>
+                        {{ end }}
+                        {{ end }}
+                    </ul>
+                </p>
+                <a href="tel:+12315776252" role="button" class="btn btn-danger btn-large d-block mb-3 rounded-pill text-uppercase fw-bold p-3 mx-auto fs-6" style="position: relative; z-index: 1; max-width: 40ch;">Call Us Now (231) 577-6252 </a>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-9 mx-auto">
+                <h3>A Quality Experience Is Our #1 Priorty At Area 51 Paintball</h3>
+                <p class="mx-auto">
+                    Area 51 Paintball wants you to have the best experience possible.  
+                That is why we take pride in our commitment to your safety.  
+                Our team of trained professionals will make sure your paintball experience is a positive one.
+                Our paintball markers and safety equipment are routinely inspected and maintained.
+                
+                In addition to quality paintball experiences, we are one of the most affordable paintball experiences in northwest Michigan.
+                Our rates are competitive and your satisfaction is guaranteed!
+
+                Give us a call today!
+                </p>   
+
+            </div>
+        </div>
+    </div>
+</section>

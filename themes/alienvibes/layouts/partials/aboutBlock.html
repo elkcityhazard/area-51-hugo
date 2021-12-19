@@ -1,0 +1,21 @@
+<section class="about-block p-3 bg-dark position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 p-3 ms-auto">
+                <h3 class="text-white h3 p-3 text-capitalize">The best Paintball Center serving Antrim county and the rest of northwestern lower Michigan.</h3>
+                {{ with .Params.about_block }}
+                <p class="text-white p-3">{{ . | markdownify }}</p>
+                {{ end }}
+                <a href="tel:+12315776252" role="button" class="btn btn-danger btn-large rounded-pill text-uppercase fw-bold p-3 mx-3 fs-6 center-on-small">Call Us Now (231) 577-6252 </a>
+                {{ with .Params.about_image}}
+                <img src="{{. | absURL }}" alt="paintsplatter" class="bg-img img-fluid" height="500" width="1920">
+                {{ end }}
+            </div>
+            <div class="col-12 col-md-6 p-3 ms-auto">
+                {{ with .Params.about_image_soldier}}
+                <img data-src="{{. | absURL }}" alt="paintball person" class="img-fluid d-none d-xl-block lazy paintball-soldier" height="768" width="768">
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
