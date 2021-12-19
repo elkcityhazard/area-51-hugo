@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container-fluid mx-auto ">
+<div class="container-fluid mx-auto">
     <div class="row">
         <div class="row p-3">
             <div class="col text-center mx-auto">
@@ -12,11 +12,11 @@
             <main class="main-content container-fluid mx-auto mb-5">
                 <div class="row">
                     <div class="col-12">
-                        <section class="list container-fluid mx-auto">
-                            {{ range .Pages}}
+                        <section class="list w-100 mx-auto">
+                            {{ range .Pages }}
                             <div class="row my-3">
                                 <div class="col-12">
-                                    <div class="card blog">
+                                    <div class="card blog d-block">
                                         <div class="card-header">
                                             <div class="col-12">
                                                 <h2 class="ps-2">{{.Title}}</h2>
