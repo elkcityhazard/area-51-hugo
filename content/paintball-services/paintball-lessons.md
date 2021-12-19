@@ -2,7 +2,7 @@
 title: Paintball Lessons
 description: "New to the sport and want to learn how to get started?  Want to learn more about gear maintenance? Our lessons will help!"
 author: Area 51 Paintball
-publishDate: 2021-12-17
+publishDate: 2099-12-17
 image: '/images/paintball-marker-test.webp'
 layout: default
 draft: true
