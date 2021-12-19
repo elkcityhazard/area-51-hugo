@@ -6,7 +6,7 @@ description: " Area 51 Paintball is Northern Michigan's Premier Outdoor Paintbal
 
 ## No More Boring Weekends
 
-<img data-src="./area-51-sign-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball sign" title="Area 51 Paintball - Northern Michigan Paintball">
+<img data-src="/images/area-51-sign-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball sign" title="Area 51 Paintball - Northern Michigan Paintball">
 
 
  Located in the beautiful northwest Michigan, Area 51 Paintball Center is the ultimate outdoor paintball experience. Not only do we have a world-class facility, but we also offer top of the line equipment and safety gear so that you can get the most out of your day with us. We are not only a paintball field; we also offer events like corporate outings, birthday parties, bachelor and bachelorette parties, youth camps and more!
@@ -14,7 +14,7 @@ description: " Area 51 Paintball is Northern Michigan's Premier Outdoor Paintbal
 
 ## What Is Paintball?
 
-<img data-src="./paintball-field-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball field" title="Area 51 Paintball - Northern Michigan Paintball">
+<img data-src="/images/paintball-field-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball field" title="Area 51 Paintball - Northern Michigan Paintball">
 
 
 
@@ -24,7 +24,7 @@ Paintball is a fast growing sport for adventure seekers. You can play paintball 
 
 ## Why Play Paintball?
 
-<img data-src="./paintball-action-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball action shot" title="Area 51 Paintball - Northern Michigan Paintball">
+<img data-src="/images/paintball-action-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball action shot" title="Area 51 Paintball - Northern Michigan Paintball">
 
 
 
@@ -42,7 +42,7 @@ Not only does paintball help you stay fit, but it develops your leadership skill
 
 ## Is Paintball Safe?
 
-<img data-src="./paintball-refs-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball Refs" title="Area 51 Paintball - Northern Michigan Paintball">
+<img data-src="/images/paintball-refs-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball Refs" title="Area 51 Paintball - Northern Michigan Paintball">
 
 
 
@@ -60,7 +60,7 @@ Your safety gear is an important way to prevent injuries while you play. Paintba
 
 ## Where Should I Play Paintball? 
 
-<img data-src="./paintball-friends-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball friends" title="Area 51 Paintball - Northern Michigan Paintball">
+<img data-src="/images/paintball-friends-1200x600.webp" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball friends" title="Area 51 Paintball - Northern Michigan Paintball">
 
 
 Although there are many similarities between indoor and outdoor paintball fields, the differences outweigh them. For one thing, an outdoor paintball field is obviously outdoors and therefore has greater visibility. The playing area on an outdoor field can be natural or it can be constructed by adding bunkers with artificial cover. It also makes use of natural terrain features such as hills and mud pits to add realism to the game.  Indoor fields and centers are great for those who want a very consistent experience each time since weather and the seasons do not factor into the game as much.  
