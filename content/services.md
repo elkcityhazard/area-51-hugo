@@ -8,7 +8,7 @@ services:
     icon: "/images/icons"
   - name: "Corporate Events"
     description: "Paintball is great for team building because it allows the players to work together as a cohesive unit to achieve a goal."
-    url:  "/paintball-services/corporate-events"
+    url:  "/paintball-services/corporate-entertainment-services"
     icon: "/images/icons"
   - name: "Paintball Parties"
     description: "Birthday Parties and special events are our specialties!  Area 51 Paintball can help you plan a birthday or party event."
