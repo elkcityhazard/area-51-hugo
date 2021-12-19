@@ -22,18 +22,30 @@
                                                 <h2 class="ps-2">{{.Title}}</h2>
                                             </div>
                                             <div class="col-12">
-                                                <strong><i class="fa fa-address-card" aria-label="Author"></i></strong> <span class="px-2">{{ .Params.author }}</span> 
-                                                <strong><i class="fa fa-calendar" aria-label="Date Published"></i></strong> <span class="px-2">{{ time.Format "Monday, Jan 2, 2006" .Date }}</span>
+                                                <div class="d-block d-md-inline-block">
+                                                    <strong ><i class="fa fa-address-card" aria-label="Author"></i></strong> <span class="px-2">{{ .Params.author }}</span> 
+                                                </div>
+                                                <div class="d-block d-md-inline-block">
+                                                    <strong><i class="fa fa-calendar" aria-label="Date Published"></i></strong> <span class="px-2">{{ time.Format "Monday, Jan 2, 2006" .Date }}</span>
+
+                                                </div>
                                                 {{ if .Params.start_date }}
-                                                <strong><i class="fa fa-calendar" aria-label="event date"></i></strong> <strong class="ps-2"><small>Start:</small></strong> <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.start_date }}</span>
+                                                <div class="d-block d-md-inline-block">
+                                                <strong><i class="fa fa-clock" aria-label="event date"></i></strong> <strong class="ps-2"><small>Start:</small></strong> <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.start_date }}</span>
+                                                </div>
+                                                {{ end }}
                                                 {{ if .Params.end_date }}
-                                                <strong class="ps-2"><small>End:</small></strong>
-                                                <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.end_date }}</span>
+                                                <div class="d-block d-md-inline-block">
+                                                <strong><i class="fa fa-clock" aria-label="event date"></i><strong class="ps-2">End:</strong ></strong>
+                                                    <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.end_date }}</span>
+                                                </div>
                                                 {{ end }}
                                                 {{ if .Params.cost }}
+                                                <div class="d-block d-md-inline-block">
                                                 <strong class="ps-1"><i class="fa fa-dollar-sign" aria-label="cost of event"></i></strong> <strong class="ps-1"><small>Cost: </small></strong> <span class="ps-1">{{ .Params.cost }}</span>
-                                                {{ end }}
-                                                {{ end }}
+                                            </div>
+                                            {{ end }}
+                                                
                                                     
                                                 </ul>
                                             </div>

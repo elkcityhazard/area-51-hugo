@@ -5,6 +5,8 @@ author: Area 51 Paintball
 publishDate: 2021-12-17
 image: '/images/paintball-marker-test.webp'
 layout: default
+draft: true
+headless: true
 ---
 
 Paintball is a game in which players are divided into teams of 5 or 12, with the goal of causing the other team to "out" (reach a pre-defined number of points), or eliminating all members of that team by tagging them with paintballs. Players use their paintball guns to mark opponents and shoot them with paintballs, wearing protective gear such as masks, goggles, and body armor. There are different variations on the rules for recreational play.

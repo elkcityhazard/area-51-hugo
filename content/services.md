@@ -22,8 +22,4 @@ services:
     description: "Ready to upgrade your gear?  We have a full selection of top models for you to choose from."
     url:  "/paintball-services/paintball-equipment-sales"
     icon: "/images/icons"
-  - name: "Paintball Lessons"
-    description: "Just getting started out with the fantastic sport of paintball?  We offer lessons for new players and vetarans to help them get the most out of the sport."
-    url:  "/paintball-services/paintball-lessons"
-    icon: "/images/icons"
 ---

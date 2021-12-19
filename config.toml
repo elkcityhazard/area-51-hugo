@@ -99,11 +99,11 @@ url = "/paintball-services/paintball-equipment-sales"
 weight = 5
 parent = "paintball-services"
 
-[[menu.main]]
-identifier = "paintball-lessons"
-name = "Paintball Lessons"
-url = "/paintball-services/paintball-lessons"
-weight = 6
-parent = "paintball-services"
+# [[menu.main]]
+# identifier = "paintball-lessons"
+# name = "Paintball Lessons"
+# url = "/paintball-services/paintball-lessons"
+# weight = 6
+# parent = "paintball-services"
 
 
