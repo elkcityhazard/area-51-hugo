@@ -26,3 +26,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- content/events/test-event.md
