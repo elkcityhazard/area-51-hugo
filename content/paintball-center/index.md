@@ -39,7 +39,7 @@ blocks:
     is a fantastic cardio exercise. It will also improve your analytical and tactical
     skills in life, as it is a game of strategy. Not only does paintball help you
     stay fit, but it develops your leadership skills. It also helps you relax after
-    a hard day or week of work.
+    a hard day or week of work."
 - name: is_paintball_safe
   title: Is Paintball Safe?
   image: "/images/paintball-refs-1200x600.webp"

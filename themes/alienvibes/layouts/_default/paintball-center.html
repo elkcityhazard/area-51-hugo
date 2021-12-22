@@ -5,12 +5,28 @@
     }
     main > .row:nth-child(2n) {
         background: #333;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         flex-direction: row-reverse;
     }
 
+    main > .row > div > p {
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 1rem;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0px;
+	padding: 0px;
+}
+
     main > section > div > figure {
+        border-radius: 10px !important;
         overflow: hidden;
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
     }
+
 
     main > section > div > figure > img {
         border-radius: 10px !important;
