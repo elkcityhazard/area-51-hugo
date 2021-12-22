@@ -54,8 +54,8 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-12 col-md-3 p-2 d-flex align-items-center justify-content-center">
-                                                        {{ if .Params.img}}
-                                                        <img src="{{ .Params.img}}" class="fluid-img" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
+                                                        {{ if .Params.image}}
+                                                        <img src="{{ .Params.image}}" class="fluid-img" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
                                                         {{ else }}
                                                         <img src="{{- .Site.BaseURL -}}images/area-51-logo.webp" alt="logo thumbnail" class="fluid-img" loading="lazy" decoding="async" height="100" width="100">
                                                         {{- end -}}
