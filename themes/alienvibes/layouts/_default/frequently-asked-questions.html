@@ -27,7 +27,7 @@
         <div class="d-grid gap-3 col mx-auto p-3">
             {{ range $index, $element := .Params.faq }}
             <button data-toggle="{{ $index }}" type="button" class="btn btn-lg btn-danger p-3"><i class="fas fa-arrow-circle-right fa-2x float-start"></i>{{ $element.question | markdownify }}</button>
-            <div data-active="{{ $index }}" class="d-block content">{{ $element.answer }}</div>
+            <div data-active="{{ $index }}" class="d-block content"><p class="lead">{{ $element.answer }}</p></div>
             {{ end }}
         </div>
     </div>

@@ -355,13 +355,16 @@ main.single ul li {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  scroll-behavior: smooth;
   width: 100%;
 }
 
@@ -388,6 +391,17 @@ body {
   max-width: 100%;
   opacity: 0.15;
   z-index: 0;
+}
+
+.elevator-link {
+  position: relative;
+  z-index: 99;
+}
+
+.object-fit-cover {
+  height: 150px;
+  width: 150px;
+  object-fit: cover !important;
 }
 
 /*# sourceMappingURL=main.css.map */
