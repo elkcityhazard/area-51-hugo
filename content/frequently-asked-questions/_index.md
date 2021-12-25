@@ -5,7 +5,7 @@ author: Area 51 Paintball
 layout: frequently-asked-questions
 faq:
     - question: "What Are Your Hours?"
-      answer: "We are currently only open on Saturdays from 9:30am - 6:00pm"
+      answer: "We are closed for the season currently.  Check back for spring hours in the near future."
       id: 1
     - question: "Can I bring my own paintball gear?"
       answer: "Yes, as long as it is approved by the staff and inspected, you can bring your own paintball gear."
