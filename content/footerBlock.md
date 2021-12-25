@@ -22,8 +22,8 @@ hours:
   finish: closed
   id: 5
 - day: Saturday
-  start: 9:30am
-  finish: 6:00pm
+  start: closed 
+  finish: closed
   id: 6
 - day: Sunday
   start: closed
