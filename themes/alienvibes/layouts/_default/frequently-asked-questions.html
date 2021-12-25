@@ -1,60 +1,76 @@
-{{ define "main"  }}
+{{ define "main" }}
 
 <style type="text/css">
-    .fa-arrow-circle-right {
-        transition: all 250ms ease;
-        -webkit-transition: all 250ms ease;
-        -moz-tranistion: all 250ms ease;
-    }
-    .content {
-        height: 0;
-        overflow: hidden;
-        transition: all 250ms ease;
-        -webkit-transition: all 250ms ease;
-        -moz-tranistion: all 250ms ease;
-    }
+  .fa-arrow-circle-right {
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-tranistion: all 250ms ease;
+  }
+  .content {
+    height: 0;
+    overflow: hidden;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-tranistion: all 250ms ease;
+  }
 </style>
 
 <header class="container">
-    <div class="row">
-        <div class="col mx-auto p-3">
-            <h1 class="text-center">{{ .Title }}</h1>
-        </div>
+  <div class="row">
+    <div class="col mx-auto p-3">
+      <h1 class="text-center">{{ .Title }}</h1>
     </div>
+  </div>
 </header>
 <main class="container mx-auto p-3">
-    <div class="row">
-        <div class="d-grid gap-3 col mx-auto p-3">
-            {{ range $index, $element := .Params.faq }}
-            <button data-toggle="{{ $index }}" type="button" class="btn btn-lg btn-danger p-3"><i class="fas fa-arrow-circle-right fa-2x float-start"></i>{{ $element.question | markdownify }}</button>
-            <div data-active="{{ $index }}" class="d-block content"><p class="lead">{{ $element.answer }}</p></div>
-            {{ end }}
-        </div>
+  <div class="row">
+    <div class="d-grid gap-3 col mx-auto p-3">
+      {{ range $index, $element := .Params.faq }}
+      <button
+        data-toggle="{{ $index }}"
+        type="button"
+        class="btn btn-lg btn-danger p-3 faq-btn"
+      >
+        <i class="fas fa-arrow-circle-right fa-2x float-start"></i>{{
+        $element.question | markdownify }}
+      </button>
+      <div data-active="{{ $index }}" class="d-block content">
+        <p class="lead">{{ $element.answer }}</p>
+      </div>
+      {{ end }}
     </div>
+  </div>
 </main>
-
-
 
 <!-- simple accordion script-->
 
 <script defer>
-    const buttons = document.querySelectorAll('.btn')
-    const answers = document.querySelectorAll('.content')
+  const buttons = document.querySelectorAll('.faq-btn')
+  const answers = document.querySelectorAll('.content')
 
-    buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-            document.querySelectorAll('.fa-arrow-circle-right').forEach((toggle) => toggle.style.transform = `rotateZ(0)` );
-            for (let answer of answers) {
-                button.firstChild.style.transform = `rotateZ(90deg)`
-                if (button.getAttribute('data-toggle') === answer.getAttribute('data-active')) {
-                    answer.style.height = answer.scrollHeight + 'px'
-                } else {
-                    answer.style.height = 0;
-                }
-            }
-        })
+  function resetButtons() {
+      buttons.forEach((button) => {
+          button.classList.remove('active')
+          button.firstElementChild.style.transform = `rotateZ(0)`
+          button.nextElementSibling.style.height = 0;
+      })
+  }
 
-    })
-    
+  buttons.forEach((button) => {
+      button.addEventListener('click', (e) => {
+      button.classList.contains('active') ? button.classList.remove('active') : button.classList.add('active')
+      if (button.classList.contains('active')) {
+      button.firstElementChild.style.transform = `rotateZ(90deg)`
+      button.nextElementSibling.style.height = button.nextElementSibling.scrollHeight + 'px';
+      button.addEventListener('click', () => {
+          this.classList.remove('active')
+      })
+      } else {
+        button.firstElementChild.style.transform = `rotateZ(0deg)`
+        button.nextElementSibling.style.height = 0;
+      }
+
+      })
+  })
 </script>
 {{ end }}

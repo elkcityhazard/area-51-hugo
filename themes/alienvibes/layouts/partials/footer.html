@@ -29,7 +29,7 @@
                 <ul class="list-group border-0 ps-0">
                     {{ with .GetPage "footerBlock"}}
                     {{ range .Params.hours}}
-                    <li class="list-group-item bg-transparent border-0 ps-0"><span id="day-{{ .id }}" class="day">{{ .day }}: {{ .start }} - {{ .finish }}</span></li>
+                    <li class="list-group-item bg-transparent border-0 ps-0"><span id="day-{{ .id }}" class="day">{{ .day | markdownify }}: {{ .start | markdownify }} - {{ .finish | markdownify }}</span></li>
                     {{ end }}
                     {{ end }}
                 </ul>

@@ -3,7 +3,7 @@ headless: true
 hours:
 - day: Monday
   start: closed
-  finish:   closed
+  finish: closed
   id: 1
 - day: Tuesday
   start: closed
