@@ -2,7 +2,9 @@
 <html lang="en">
 {{ partial "head.html" . }}
 <body id="top">
+    {{ if .Site.Params.closed_for_season }}
     {{ partial "closedForSeasons.html" . }}
+    {{ end }}
     {{ partial "navBar.html" . }}
     {{ partial "heroHeader.html" . }}
     {{ partial "aboutBlock.html" . }}
