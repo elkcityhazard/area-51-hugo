@@ -5,7 +5,7 @@ slug: "/paintball-services/"
 hero_text: Where humans play the game, but the experience is out of this world.  Paintball center serving Mancelona, Michigan and surrounding areas.  Area 51 Paintball is Northern Michigan's premier outdoor paintball center.
 about_block: "Are you looking for a paintball center in northwestern lower Michigan?  Then look no further than Area 51 Paintball.  We are an outdoor **paintball center** located just south of Mancelona, Michigan.  Our **paintball center** features a natural wooded battleground with many of man-made fixtures as well.  
 <br /> <br />
-We have been hosting paintball events for over 25 years, and have been offering the highest quality paintball equipment, services, and events at an affordable price. We are currently offering classes for all ages and all skill levels, as well as team, private, and corporate paintball events.
+We have been hosting paintball events for over 25 years, and have been offering the highest quality paintball equipment, services, and events at an affordable price. We have a variety of events and activities for all ages and all skill levels, as well as team, private, and corporate paintball events.
 <br /> <br />
 Area 51 Paintball in Mancelona, Michigan is the best **paintball center** for paintball equipment and supplies. We are a full service paintball shop that also sells a full line of paintball supplies. We have everything you need to play paintball. Our field is well maintained and the most unique in the region. We have paintball guns and paintball equipment to outfit yourself and your friends. We have paintball tournaments, paintball rentals and paintball accessories. 
 "

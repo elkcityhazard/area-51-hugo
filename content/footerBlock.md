@@ -1,5 +1,6 @@
 ---
 headless: true
+closed_season: true
 hours:
 - day: Monday
   start: closed

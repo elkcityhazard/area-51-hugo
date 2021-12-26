@@ -28,8 +28,14 @@
                 <h4 class="text-warning text-decoration-underline">Hours</h4>
                 <ul class="list-group border-0 ps-0">
                     {{ with .GetPage "footerBlock"}}
+                    {{ if .Params.closed_season }}
+
+                    <p>We Are Closed For The Season</p>
+
+                    {{ else }}
                     {{ range .Params.hours}}
                     <li class="list-group-item bg-transparent border-0 ps-0"><span id="day-{{ .id }}" class="day">{{ .day | markdownify }}: {{ .start | markdownify }} - {{ .finish | markdownify }}</span></li>
+                    {{ end }}
                     {{ end }}
                     {{ end }}
                 </ul>

@@ -17,7 +17,7 @@
 
                 {{- if .HasChildren -}} 
                     <li class="nav-item dropdown">
-                        <a href="{{- .URL | absURL -}}" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle {{- if $currentPage.HasMenuCurrent "main" . -}} active {{- end -}}">{{- .Name -}}</a>
+                        <a href="{{- .URL | absURL  -}}" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle {{- if $currentPage.HasMenuCurrent "main" . -}} active {{- end -}}">{{- .Name -}}</a>
                         <div class="dropdown-menu" data-bs-popper="none">
                             {{- range .Children -}}
                             <a href="{{- .URL | absURL -}}" class="dropdown-item">{{ .Name }}</a>
