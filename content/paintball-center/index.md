@@ -27,7 +27,7 @@ blocks:
 - name: why_play_paintball
   title: Why Play Paintball?
   image: "/images/paintball-action-1200x600.webp"
-  content: Paintball is a sport that is played like real combat. Your physical fitness,
+  content: "Paintball is a sport that is played like real combat. Your physical fitness,
     stamina, and endurance are tested. The game is also great for sharpening your
     analytical and tactical skills. A player’s overall fitness plays an important
     role in his performance during the game. A player who is fit and has stamina can
