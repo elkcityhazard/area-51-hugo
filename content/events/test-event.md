@@ -5,7 +5,7 @@ description = "This is a simple test event to see if it works "
 end_date = 2022-03-27T22:00:00Z
 image = "/uploads/paintball-group-photo-500x500-px.jpeg"
 publishDate = 2021-12-20T05:00:00Z
-draft: true
+draft =  true
 start_date = 2022-03-25T13:00:00Z
 title = "Test Event "
 
