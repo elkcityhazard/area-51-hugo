@@ -24,10 +24,14 @@
         </div>
         <div class="col-12 col-md-3 p-2">
             <h2 class="text-warning text-decoration-underline h5">Hours</h2>
+            {{ with .GetPage "footerBlock"}}
+            {{ if .Params.closed_season }}
+            <p>We are closed for the season.</p>
+            {{ else }}
             <ul class="list-group border-0 ps-0">
-                {{ with .GetPage "footerBlock"}}
                 {{ range .Params.hours}}
                 <li class="list-group-item bg-transparent border-0 ps-0"><span id="day-{{ .id }}" class="day">{{ .day }}: {{ .start }} - {{ .finish }}</span></li>
+                {{ end }}
                 {{ end }}
                 {{ end }}
             </ul>

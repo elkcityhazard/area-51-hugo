@@ -30,12 +30,13 @@ pricing:
     - name: "Area 51 Full Rental"
       price: 45
       includes: 
+          - Paintball marker
           - Paintball mask
           - A pod pack with 2 pods
           - 500 rounds of paintballs
           - Field pass and all day air
-      extras: $10 to rent a paintball marker
-      description: "Full Rental Registration includes: A Paintball Mask, A Pod Pack with 2 Pods, 500 rounds of Paintballs, Field Pass and All Day Air all for only $45."
+      extras: $10 to upgrade paintball marker
+      description: "Full Rental Registration includes: A Paintball Marker, Paintball Mask, A Pod Pack with 2 Pods, 500 rounds of Paintballs, Field Pass and All Day Air all for only $45."
       animate: true
     - name: "D3FY"
       price: 50

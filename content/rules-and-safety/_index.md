@@ -21,7 +21,7 @@ safety_requirements:
     - No alcohol or drugs
     - Leave wildlife at peace
     - FIELD PAINT ONLY
-    - Reprt any and all problems to Area 51 Paintball staff
+    - Report any and all problems to Area 51 Paintball staff
 rules_of_engagement:
     title: Rules Of Engagement
     list_items:
@@ -38,7 +38,7 @@ rules_of_engagement:
     - Honesty is the best policy 
     - Keep bunkers where they are
     - Shoot designated targets only
-    - Report and and all isses to Area 51 Staff
+    - Report any and all issues to Area 51 Staff
 things_to_consider:
     title: Things To Consider
     list_items:
@@ -47,7 +47,6 @@ things_to_consider:
     - We can help arrange Pizza Delivery for your party
     - Bring table clothes, decorations, tents, umbrellas, outdoor chairs, and any other creative things they can think of to enhance their paintball party guests’ experience
     - Request to play some private games together
-    - Reserve a private ref if you wish to play all games as an exclusive event
     - Bring bug spray for those couple times of year when the mosquitoes are having a reunion at the field
     - We love pets but must ask that you leave yours at home
 ---

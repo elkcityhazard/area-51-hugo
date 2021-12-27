@@ -13,4 +13,6 @@ faq:
     - question: "What should we bring for a day of paintball?"
       answer: "Make sure you bring plenty of water, snacks, and sun screen!"
       id: 3
+    - question: "Can I bring my own paint?"
+      answer: "No, Only field paint is allowed."
 ---

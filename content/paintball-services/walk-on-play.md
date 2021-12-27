@@ -22,6 +22,7 @@ Prices for walk on play is typically **$45 dollars** for the Area 51 Paintball f
 This package will include:
 
 - A paintball mask
+- A paintball marker
 - A pod pack with 2 pods
 - 500 rounds of paintballs
 - Field pass & all day air

@@ -19,7 +19,7 @@ One of the best things about Area 51 Paintball is that they offer gear and equip
 Our mission is to provide the best paintball equipment and gear for sale, as well as bringing a great experience to customers. Our goal is to give you unparalleled service to ensure your next paintball purchase is a memorable fun experience.   
 
 
-We have specially designed paintball masks that are made of high quality material. The most popular paintball safety mask is the swat force full face. This mask has a foam lining that covers the eyes, nose and mouth to protect you from splatter and flying objects.  Not only does this mask protect you from harm, it has the added benefit of having superior visibility on the field.  This will be sure to give you an extra advantage!
+We have specially designed paintball masks that are made of high quality material.  
 
 
 ## Selection Of Paintball Markers

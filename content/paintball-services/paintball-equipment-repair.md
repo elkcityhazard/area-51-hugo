@@ -27,7 +27,7 @@ Paintball markers, paintball masks, and other safety equipment are all things we
 There are 4 main categories of maintenance for paintballs: filling up gas tanks; changing barrels; cleaning components; and lubricating pneumatics. All these aspects of the maintenance process require special tools, but if you do not have them there are alternatives that can be used instead. 
 
 
-Paintball markers come in many shapes and sizes. The most popular style is the pump-action paintball marker that uses a CO2 or compressed air tanks to propel the paintballs. When using CO2, the gas is carried in a 6,000 to 10,000 psi bottle with a regulator to adjust the pressure for different markers. A 12 oz canister of compressed air will power an average pump for about six hundred shots.  
+Paintball markers come in many shapes and sizes. The most popular style is the semi-automatic paintball marker that uses a CO2 or compressed air tanks to propel the paintballs. When using CO2, the gas is carried in a 6,000 to 10,000 psi bottle with a regulator to adjust the pressure for different markers. A 12 oz canister of compressed air will power an average pump for about six hundred shots.  
 
 
 If the paintball gun has a defective paintball mechanism, the risk of injury is increased.
