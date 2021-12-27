@@ -1,13 +1,15 @@
 ---
 title: Alien Invasion 2022
 description: "Area 51 Alien Invasion will take you on a paintball journey you won't forget. Get ready to play all day, camp under the stars with friends, and create memories."
-author: Area 51 Paintball
+austylesheetthor: Area 51 Paintball
 publishDate: 2021-12-19
 start_date: 2022-08-19
 end_date: 2022-08-21
 cost: See Details
 image: /images/area-51-alien-invasion-flyer-1.webp
 ---
+
+## This Event Has Ended
 
 
 Area 51 Alien Invasion will take you on a paintball journey you won't forget. Get ready to play all day, camp under the stars with friends, and create memories that will last a lifetime. Whether you're looking for an adrenaline rush or just want to get outside and have some fun, our event is perfect for everyone.
