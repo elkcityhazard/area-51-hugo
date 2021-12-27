@@ -54,7 +54,7 @@
     {{ with .Params.blocks }}
         {{ range . }}
         <section class="row justify-content-center align-items-center my-3">
-            <div class="col-12 col-md-6 text-white p-3">
+            <div class="col-12 col-lg-6 text-white p-3">
                 {{ if .image }}
                 <figure>
                     <img data-src="{{ .image | absURL }}" class="lazy fluid-img" decoding="async" height="600" width="1200" alt="area 51 paintball sign" title="Area 51 Paintball - Northern Michigan Paintball" style="max-width: 100%; height: auto;">
@@ -126,7 +126,7 @@ C312.76,216.145,334.062,212.889,333.088,206.517z"/>
                 </figure>
                 {{ end }}
             </div>
-            <div class="col-12 col-md-6 mx-auto text-white p-3">
+            <div class="col-12 col-lg-6 mx-auto text-white p-3">
                 <h2>{{ .title | markdownify }}</h2>
                 <p class="lead">{{ .content | markdownify }}</p>
             </div>
