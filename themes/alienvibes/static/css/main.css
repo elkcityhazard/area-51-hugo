@@ -404,4 +404,17 @@ body {
   object-fit: cover !important;
 }
 
+section.rules .row {
+  background: rgba(0, 0, 0, 0.5);
+}
+section.rules .row .rules-card {
+  transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  opacity: 0.85;
+}
+section.rules .row:hover .rules-card {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=main.css.map */

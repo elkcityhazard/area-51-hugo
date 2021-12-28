@@ -1,5 +1,5 @@
 {{ with .Site.GetPage "rules-and-safety"}}
-<section class="container alert alert-dismissible alert-success">
+<section data-background="{{ .Site.BaseURL }}images/backgrounds/paintball-spool-1920x1080.webp"  class="container-fluid bg-secondary text-center lazy-bg rules">
     <div class="row">
         <div class="container mx-auto p-3">
             <h3 class="text-center">
@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="row justify-content-center align-items-start">
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-md-9 col-lg-3 rules-card">
             {{ with .Params.safety_requirements}}
             <h4 class="text-center mb-3">{{ .title }}</h4>
             <ul class="list-group-flush">
@@ -18,7 +18,7 @@
             </ul>
             {{ end }}
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-md-9 col-lg-3 rules-card">
             {{ with .Params.rules_of_engagement }}
             <h4 class="text-center mb-3">{{ .title }}</h4>
             <ul class="list-group-flush">
@@ -28,7 +28,7 @@
             </ul>
             {{ end }}
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-md-9 col-lg-3 rules-card">
             {{ with .Params.things_to_consider }}
             <h4 class="text-center mb-3">{{ .title }}</h4>
             <ul class="list-group-flush">
