@@ -1,7 +1,7 @@
 ---
 title: "Area 51 Paintball"
 subtitle: "For The Love Of The Game"
-slug: "/paintball-services/"
+description: "Area 51 Paintball is a paintball center and outdoor recreation facility located near Mancelona, Michigan."
 hero_text: Where humans play the game, but the experience is out of this world.  Paintball center serving Mancelona, Michigan and surrounding areas.  Area 51 Paintball is Northern Michigan's premier outdoor paintball center.
 about_block: "Are you looking for a paintball center in northwestern lower Michigan?  Then look no further than Area 51 Paintball.  We are an outdoor **paintball center** located just south of Mancelona, Michigan.  Our **paintball center** features a natural wooded battleground with many of man-made fixtures as well.  
 <br /> <br />
@@ -22,4 +22,6 @@ why_us_list:
     - Area 51 Paintball is a great activity for groups of all sizes.
     - We offer birthday parties, corporate events, and more!
     - Bathrooms on site!
+images:
+    - /images/area-51-logo.webp
 ---

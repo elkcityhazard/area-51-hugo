@@ -1,8 +1,9 @@
 ---
 title: Area 51 Paintball Center
 subtitle: No More Boring Weekends - Start Your Paintball Adventure Today
-description: Area 51 Paintball is Northern Michigan's Premier Outdoor Paintball Facility.
-  Located just minutes from Traverse City and Kalkaska
+description: Area 51 Paintball is Northern Michigan's Premier Outdoor Paintball Facility. Located just minutes from Traverse City and Kalkaska
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-21
 layout: paintball-center

@@ -1,6 +1,8 @@
 ---
 title: Area 51 Rules of Engagement & Safety Requirements
 description: "Our rules of engagement as well as safety requirements for Area 51 Paintball."
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-26
 headless: true

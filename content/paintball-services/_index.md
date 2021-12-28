@@ -1,5 +1,8 @@
 ---
 title: "Paintball Center Services"
+description: "Area 51 Paintball has a variety of services an activities."
+images:
+    - /images/area-51-logo.webp
 subtitle: "Area 51 Paintball offers a full line of **paintball center services in Mancelona, Michigan.**  Whether you need safety equipment or repair services, our team is dedicated to making sure you are taken care of along the way."
 
 services:

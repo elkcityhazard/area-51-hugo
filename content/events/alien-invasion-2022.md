@@ -7,6 +7,8 @@ start_date: 2022-08-19
 end_date: 2022-08-21
 cost: See Details
 image: /images/area-51-alien-invasion-flyer-1.webp
+images:
+    - /images/area-51-logo.webp
 ---
 
 ## This Event Has Ended

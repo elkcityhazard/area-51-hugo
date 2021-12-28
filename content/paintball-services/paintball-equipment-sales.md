@@ -1,6 +1,8 @@
 ---
 title: Paintball Equipment Sales
 description: "We are proud to offer sales of popular brands like Tippmann Paintball Markers and D3fy Paint"
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-16
 image: '/images/paintball-marker-for-sale.webp'

@@ -1,6 +1,8 @@
 ---
 title: Pricing
 description: "Area 51 Paintball has a variety of pricing packages for all groups, parties, and individuals."
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-19
 layout: pricing

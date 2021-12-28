@@ -1,6 +1,8 @@
 ---
 title: Corporate Events
 description: "Area 51 Paintball offers corporate events packages.  Paintball is a strategic sport that will help your team build trust and strategic communication."
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-16
 image: '/images/corporate-events.webp'

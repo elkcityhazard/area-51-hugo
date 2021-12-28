@@ -1,6 +1,8 @@
 ---
 title: Paintball Parties
 description: "Birthday Parties and special events are our specialties!  Area 51 Paintball can help you plan a birthday or party event that will be remembered for years to come"
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-17
 image: '/images/paintball-parties.webp'

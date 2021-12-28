@@ -1,6 +1,8 @@
 ---
 title: Paintball Equipment Repair
 description: "Area 51 Paintball can help you repair, maintain, and restore your paintball equipment to like new condition."
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 publishDate: 2021-12-16
 image: '/images/paintball-repair.webp'

@@ -1,6 +1,8 @@
 ---
 title: Walk On Play
 description: "Walk-on days are Area 51 Paintball's general admission days.  You do not need to schedule an event to participate. Check our website to see when walk-on days are happening."
+images:
+    - /images/area-51-logo.webp
 publishDate: 2021-12-19
 author: Area 51 Paintball
 ---

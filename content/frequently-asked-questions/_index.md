@@ -1,6 +1,8 @@
 ---
 title: "Frequently Asked Questions"
 description: "A collection of the most frequently asked questions at Area 51 Paintball"
+images:
+    - /images/area-51-logo.webp
 author: Area 51 Paintball
 layout: frequently-asked-questions
 faq:
