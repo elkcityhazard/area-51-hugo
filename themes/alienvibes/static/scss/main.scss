@@ -69,6 +69,7 @@ body {
 section.rules {
     .row {
         background: rgba(0,0,0,0.5);
+        @include mixins.transition;
         .rules-card {
             @include mixins.transition;
             opacity: 0.85;
@@ -77,6 +78,11 @@ section.rules {
             .rules-card {
                 opacity: 1;
             }
+        }
+    }
+    &:hover {
+        .row {
+            background: rgba(0,0,0,0);
         }
     }
 }

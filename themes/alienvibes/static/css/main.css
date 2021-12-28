@@ -406,6 +406,9 @@ body {
 
 section.rules .row {
   background: rgba(0, 0, 0, 0.5);
+  transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
 }
 section.rules .row .rules-card {
   transition: all 1000ms ease;
@@ -415,6 +418,9 @@ section.rules .row .rules-card {
 }
 section.rules .row:hover .rules-card {
   opacity: 1;
+}
+section.rules:hover .row {
+  background: rgba(0, 0, 0, 0);
 }
 
 /*# sourceMappingURL=main.css.map */
