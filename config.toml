@@ -2,7 +2,7 @@ baseURL = "https://area51paintball.net/"
 languageCode = "en-us"
 title = "Area 51 Paintball"
 theme = "alienvibes"
-
+# update
 [params]
 description = "Area 51 Paintball is a rustic outdoor paintball center located North of Kalkaska, Michigan."
 logo = "/images/area-51-logo.webp"
