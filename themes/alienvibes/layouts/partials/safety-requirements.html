@@ -21,7 +21,7 @@
         <div class="col-12 col-md-9 col-lg-3 rules-card">
             {{ with .Params.rules_of_engagement }}
             <h4 class="text-center mb-3">{{ .title }}</h4>
-            <ul class="list-group-flush p-2 mx-auto">
+            <ul class="list-group-flush p-0 mx-auto">
                 {{ range .list_items }}
                 <li class="list-group-item">{{ . }}</li>
             {{ end }}
