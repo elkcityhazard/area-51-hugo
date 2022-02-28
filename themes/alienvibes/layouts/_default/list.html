@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-12">
                         <section class="list w-100 mx-auto">
-                            {{ range .Pages }}
+                            {{ range sort .Pages ".Params.start_date" "asc"}}
                             <div class="row my-3">
                                 <div class="col-12">
                                     <div class="card blog d-block">
@@ -44,6 +44,7 @@
                                                 <div class="d-block d-md-inline-block">
                                                 <strong><i class="fa fa-dollar-sign ps-1" aria-label="cost of event"></i></strong> <strong class="ps-1"><small>Cost: </small></strong> <span class="ps-1">{{ .Params.cost }}</span>
                                             </div>
+                                                
                                             {{ end }}
                                                 
                                                     
@@ -55,7 +56,9 @@
                                                 <div class="row">
                                                     <div class="col-12 col-md-3 p-2 d-flex align-items-center justify-content-center">
                                                         {{ if .Params.image }}
-                                                        <img data-src="{{ .Params.image | absURL }}" class="lazy fluid-img object-fit-cover" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
+                                                        <a href="{{- .RelPermalink | absURL -}}" title="{{- .Title -}}" aria-label="event hyperlink">
+                                                            <img data-src="{{ .Params.image | absURL }}" class="lazy fluid-img object-fit-cover" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
+                                                        </a>
                                                         {{ else }}
                                                         <img data-src="{{- .Site.BaseURL -}}images/area-51-logo.webp" alt="logo thumbnail" class="lazy fluid-img object-fit-cover" loading="lazy" decoding="async" height="100" width="100">
                                                         {{- end -}}

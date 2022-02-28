@@ -30,7 +30,7 @@ We have specially designed paintball masks that are made of high quality materia
 Tippmann, Empire, Dye, Planet Eclipse: these are just a few of the paintball markers we carry.   
 
 
-We have a variety of paintball markers that will be appropriate for new players as well as veteran paintballers. Our entry-level marker, the Tiberius Arms T9.1 is an excellent choice for younger players and those new to the sport. The semi-automatic firing mode allows you to squeeze off single shots or rapid fire without having to worry about controlling a rate of fire switch like on our other models. Our T16 is another good option for novice players as it features both a rubber and a sponge. The rubber is made of soft plastic which allows for better control over the ball, while the sponge is designed to give you more speed.  Tippmann 98 still offers a great value and performance ratio for the money and is an excellent choice for new or intermediate players on a budget.  
+We have a variety of paintball markers that will be appropriate for new players as well as veteran paintballers. Our entry-level marker, Tippmann 98 still offers a great value and performance ratio for the money and is an excellent choice for new or intermediate players on a budget.  
 
 
 Not sure which paintball marker you should purchase?  No worries!  We are happy to help you choose the paintball marker that is right for you and explain the features and added benefits of each paintball marker.  

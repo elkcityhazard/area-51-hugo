@@ -1,60 +1,46 @@
 ---
 title: Alien Invasion 2022
 description: "Area 51 Alien Invasion will take you on a paintball journey you won't forget. Get ready to play all day, camp under the stars with friends, and create memories."
-austylesheetthor: Area 51 Paintball
-publishDate: 2021-12-19
-start_date: 2022-08-19
-end_date: 2022-08-21
+author: Area 51 Paintball
+publishDate: 2022-02-28
+start_date: 2022-07-29
+end_date: 2022-07-31
 cost: See Details
-image: /images/area-51-alien-invasion-flyer-1.webp
+image: /images/events/2022/INVASIONFLYER.jpg
 images:
-    - /images/area-51-logo.webp
+    - /images/events/2022/invasion512022(2).jpg
 ---
 
-## This Event Has Ended
+![Area 51 Paintball Alien Invasion 2022 Flyer!](/images/events/2022/invasion512022(2).jpg "Area 51 Paintball - Alien Invasion 2022 Flyer")
+
+## FIELD FEE’S
+
+- **OWN GEAR**
+- $45.00 – preregister
+- $60.00 – at the gate
+- **FULL RENTAL**
+- PAINT NOT INCLUDED
+- $60.00 – preregister
+- $75.00 – at the gate
+- PREREGISTRATION ENDS JULY 16TH.
+- FIELD PAINT REQUIRED $50.00 per 2000 Rd. CASE
+
+## FRIDAY JULY 29TH
+
+- 4;00 PM Registration
+- Play Starts as People Show Up
+- 2 Vs. 2 tournament
+- Winners are Team Captains
 
 
-Area 51 Alien Invasion will take you on a paintball journey you won't forget. Get ready to play all day, camp under the stars with friends, and create memories that will last a lifetime. Whether you're looking for an adrenaline rush or just want to get outside and have some fun, our event is perfect for everyone.
+## SATURDAY JULY 30TH
 
-## Event Details
+- 9:00 AM Registration
+- 10:00 AM Game Starts
+- 6:00 PM Awards Dinner (Sponsored by the MISFITS)
 
-## Friday, August 20th
+## SUNDAY JULY 31ST
 
-- 4:00pm Registration
-- 2 vs 2
-- Winners are team generals
-
-## Saturday, August 21st
-
-- 9:00am Registration
-- 10:00am Game Starts
-- 6:00pm Awards
-- Sponsored by The Misfits
-
-## Sunday, August 22nd
-
-- 8:00am Player Breakfast
-- Sponsored By Area 51
-- 9:00am Registration
-- 10:00am Round Robin Game
-
-## Additional Details
-
-### Field Fees
-
-- $45 if you pre-register before August 13th
-- $60 at the gate registration with your own gear
-
-### Rental Information
-
-- Full Rental $75
-- Pre-registration Rental: $60
-
-### Field Paint Required
-
-- $50 per 2000 rounds case
-
-### FAQ
-
-- Paint is not included with registration or rentals
-- Free on-site rustic camping will be available!
+- 8:00 AM Players Breakfast (Sponsored by AREA 51)
+- 9:00 AM Registration
+- 10:00 AM Full Field Play

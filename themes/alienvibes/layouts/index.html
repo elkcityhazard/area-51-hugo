@@ -14,7 +14,23 @@
     {{ partial "testimonials.html" .}}
     {{ partial "locationBlock.html" . }}
     {{ partial "safety-requirements.html" . }}
+    {{ partial "event-modal.html" . }}
     {{ partial "footer.html" . }}
    {{- partial "scripts.html" . -}}
+   <script defer>
+       const script = document.getElementById('bootstrapJS');
+
+        bootstrapJS.addEventListener('load', () => {
+            setTimeout(() => {
+                const myModal = new bootstrap.Modal(document.getElementById('eventModal'))
+
+                if (!localStorage.getItem('modal')) {
+                    myModal.show();
+                    localStorage.setItem('modal', true)
+                }
+            }, 2000)
+        })
+
+   </script>
 </body>
 </html>
