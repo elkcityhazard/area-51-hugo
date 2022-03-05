@@ -1,9 +1,16 @@
 <style type="text/css">
 .countdown {
-    padding-top: 50px;
     position: fixed;
     bottom: 0;
     min-width: 100vw;
+    opacity: 0.85;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    z-index: 5;
+}
+
+.countdown:hover {
+    opacity: 1;
 }
 
 .countdown .close-timer {
