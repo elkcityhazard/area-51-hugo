@@ -71,7 +71,9 @@
 const countdownTimer = setInterval(() => {
 
         //  Set Area 51 Alien Invasion Target Date
-        const targetDate = new Date(2022, 07, 29, 16, 00, 00);
+        const targetDate = new Date(2022, 06, 29, 16, 00, 00);
+
+        console.log(targetDate)
 
         //  Grab The Current Date
         const currentDate = Date.now();
@@ -84,7 +86,7 @@ const countdownTimer = setInterval(() => {
         //  Milliseconds, Minutes, Seconds, hours
         //  Use modulus for hours, days, seconds
 
-        const day = Math.floor(diff / 1000 / 60 / 60 / 24);
+        const day = Math.floor(diff /1000 / 60 / 60 / 24);
         const hour = Math.floor(diff / 1000 / 60 / 60) % 24;
         const minute = Math.floor(diff / 1000 / 60) % 60;
         const second = Math.floor(diff / 1000) % 60;
