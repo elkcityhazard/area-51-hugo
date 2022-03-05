@@ -1,0 +1,101 @@
+<style type="text/css">
+.countdown {
+    padding-top: 50px;
+    position: fixed;
+    bottom: 0;
+    min-width: 100vw;
+}
+
+.countdown .close-timer {
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5em;
+    font-weight: 600;
+    opacity: 0.75;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+}
+
+.countdown .close-timer:hover {
+    opacity: 1;
+    background: transparent;
+    color: #fff !important;
+}
+</style>
+
+<section class="container countdown bg-black">
+    <button id="timerToggle" class="close-timer btn btn-warning text-dark">&times;</button>
+  <div class="row">
+    <div class="col mx-auto p-3 text-center">
+      <p class="h3">2022 Alien Invasion starts in:</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mx-auto p-3 text-center d-flex align-items-center justify-content-center">
+      <span class="d-inline-block p-3 bg-dark text-white fw-bolder mx-1 fs-6 days">24</span><span>&nbsp;Days</span>
+      <span class="d-inline-block p-3 bg-dark text-white fw-bolder mx-1 fs-6 hours">25</span><span>&nbsp;Hours</span>
+      <span class="d-inline-block p-3 bg-dark text-white fw-bolder mx-1 fs-6 minutes">25</span><span>&nbsp;Minutes</span>
+      <span class="d-inline-block p-3 bg-dark text-white fw-bolder mx-1 fs-6 seconds">24</span><span>&nbsp;Seconds</span>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col mx-auto p-3 text-center">
+          <a href="/events/" class="btn btn-danger" aria-label="event page link" title="Learn more about Area 51 Events">Learn More</a>
+      </div>
+  </div>
+</section>
+
+<script defer>
+    const days = document.querySelector(".days");
+    const hours = document.querySelector(".hours");
+    const minutes = document.querySelector(".minutes");
+    const seconds = document.querySelector(".seconds");
+    const timerToggle = document.getElementById('timerToggle')
+
+
+
+const countdownTimer = setInterval(() => {
+
+        //  Set Area 51 Alien Invasion Target Date
+        const targetDate = new Date(2022, 07, 29, 16, 00, 00);
+
+        //  Grab The Current Date
+        const currentDate = Date.now();
+
+        // Get the difference of the targetDate - currentDate
+
+        const diff = targetDate - currentDate;
+
+        //  Calculate respective values
+        //  Milliseconds, Minutes, Seconds, hours
+        //  Use modulus for hours, days, seconds
+
+        const day = Math.floor(diff / 1000 / 60 / 60 / 24);
+        const hour = Math.floor(diff / 1000 / 60 / 60) % 24;
+        const minute = Math.floor(diff / 1000 / 60) % 60;
+        const second = Math.floor(diff / 1000) % 60;
+
+        days.textContent = day
+        hours.textContent = hour
+        minutes.textContent = minute
+        seconds.textContent = second
+
+        console.log(day, hour, minute, second)
+
+        if (diff === 0) {
+            clearInterval(countdownTimer)
+        }
+        
+    }, 1000)
+
+    timerToggle.addEventListener('click', () => {
+
+        clearInterval(countdownTimer)
+        document.querySelector('.countdown').classList.add('d-none')
+    })
+</script>
