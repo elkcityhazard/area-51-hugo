@@ -1,8 +1,30 @@
+<style>
+    @keyframes marquee {
+        from {
+        transform: translate3D(100%,0,0);
+        }
+
+        to {
+            transform: translate3D(-100%,0,0);
+        }
+    }
+
+    .marquee {
+        animation: marquee 10s linear infinite;
+        overflow-y: hidden;
+    }
+
+    time {
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+</style>
 <section class="container-fluid alert alert-dismissible alert-danger text-center">
     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     <div class="row">
         <div class="col mx-auto text-center">
-            <p class="lead"><strong>Area 51 Paintball is closed for the season.  See you in 2022!</strong></p>
+            <p class="lead marquee"><strong>Our Opening Day Will Be <time class="text-dark px-2">Saturday, May 14, 2022</time></time></strong></p>
         </div>
     </div>
 </section>
