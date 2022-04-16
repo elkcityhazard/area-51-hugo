@@ -15,7 +15,7 @@ Safety gear is a must when engaging in a physical activity such as paintball. Pa
 ## What is paintball equipment and what does it need to be repaired and maintained
 
 
-Paintball markers are essential to playing paint ball. Paintball markers use CO2 cartridges to shoot balls of paint at other players. Although paintball markers come in many different shapes and sizes, the most common type is a semi-automatic marker.  There are many benefits to owning a paintball marker, such as the fun of personalizing your own device and shooting your friends with it.
+Paintball markers are essential to playing paint ball. Paintball markers use CO2 or high-pressure air cartridges to shoot balls of paint at other players. Although paintball markers come in many different shapes and sizes, the most common type is a semi-automatic marker.  There are many benefits to owning a paintball marker, such as the fun of personalizing your own device and shooting your friends with it.
 
 
 Paintball markers, paintball masks, and other safety equipment are all things we can help you out with if you are in need of repair.  
