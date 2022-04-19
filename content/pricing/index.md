@@ -38,7 +38,7 @@ pricing:
           - 500 rounds of paintballs
           - Field pass and all day air
       extras: $10 to upgrade paintball marker
-      description: "Full Rental Registration includes: A Paintball Marker, Paintball Mask, A Pod Pack with 2 Pods, 500 rounds of Paintballs, Field Pass, HPA Tank Rental $5.00 with $25.00 deposit"
+      description: "Full Rental Registration includes: A Paintball Marker, Paintball Mask, A Pod Pack with 2 Pods, 500 rounds of Paintballs, Field Pass"
       animate: true
     - name: "D3FY"
       price: 55G

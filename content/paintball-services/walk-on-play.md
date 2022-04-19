@@ -27,7 +27,7 @@ This package will include:
 - A paintball marker
 - A pod pack with 2 pods
 - 500 rounds of paintballs
-- HPA Tank Rental $5.00 with $25.00 deposit
+- Air included with marker
 
 
 ## What To Expect Of Walk-On Days?
