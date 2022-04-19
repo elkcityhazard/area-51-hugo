@@ -19,7 +19,7 @@ Be sure to check our website, holiday schedule, or call to learn more about walk
 
 ## How Much Do Walk On Days Cost? 
 
-Prices for walk on play is typically **$45 dollars** for the Area 51 Paintball full rental.
+Prices for walk on play is typically **$50 dollars** for the Area 51 Paintball full rental.
 
 This package will include:
 
