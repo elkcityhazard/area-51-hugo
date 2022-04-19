@@ -6,12 +6,12 @@ publishDate: 2022-02-28
 start_date: 2022-07-29
 end_date: 2022-07-31
 cost: See Details
-image: /images/events/2022/INVASIONFLYER.jpg
+image: /images/events/2022/newinvasionfly.webp
 images:
-    - /images/events/2022/invasion512022(2).jpg
+    - /images/events/2022/newinvasionfly.webp
 ---
 
-![Area 51 Paintball Alien Invasion 2022 Flyer!](/images/events/2022/invasion512022(2).jpg "Area 51 Paintball - Alien Invasion 2022 Flyer")
+![Area 51 Paintball Alien Invasion 2022 Flyer!](/images/events/2022/modal-invasion-flyer.webp "Area 51 Paintball - Alien Invasion 2022 Flyer")
 
 ## FIELD FEE’S
 
@@ -23,7 +23,7 @@ images:
 - $60.00 – preregister
 - $75.00 – at the gate
 - PREREGISTRATION ENDS JULY 16TH.
-- FIELD PAINT REQUIRED $50.00 per 2000 Rd. CASE
+- FIELD PAINT REQUIRED $55.00 per 2000 Rd. CASE
 
 ## FRIDAY JULY 29TH
 
