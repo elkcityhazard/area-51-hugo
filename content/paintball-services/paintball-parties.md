@@ -37,4 +37,4 @@ We can host parties for children or adults.  Our natural setting is the perfect 
 - All The Air You Can Use
 - 500 rounds of paintball each
 - **Extras:** $35 per each additional person
-- **Description:** Ultimate Party Package! This pays for the first 10 players, add $35 for each additional player. Recommended for Birthday parties and large groups. Schedule your event on one of our many "WALK ON" days. (Check events page for dates) Groups with 12 or more players may schedule private games at 9:00am to 12:00 before regular play starts. $10 extra for morning groups to play the rest of the day. 
+- **Description:** Ultimate Party Package! This pays for the first 10 players, add $35 for each additional player. Recommended for Birthday parties and large groups. Schedule your event on one of our many "WALK ON" days. (Check events page for dates)

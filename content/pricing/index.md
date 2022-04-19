@@ -15,8 +15,13 @@ pricing:
           - Ten sets of safety equipment
           - All the air you can use
           - 500 paintballs per player
+<<<<<<< HEAD
       extras: $40 per each additional person
       description: "Ultimate Party Package! This pays for the first 10 players, add $35 for each additional player. Recommended for Birthday parties and large groups. Schedule your event on one of our many \"WALK ON\" days. (Check events page for dates) Groups with 12 or more players may schedule private games at 9:00am to 12:00 before regular play starts. $10 extra for morning groups to play the rest of the day."
+=======
+      extras: $35 per each additional person
+      description: "Ultimate Party Package! This pays for the first 10 players, add $35 for each additional player. Recommended for Birthday parties and large groups. Schedule your event on one of our many \"WALK ON\" days. (Check events page for dates)"
+>>>>>>> refs/remotes/origin/main
       animate: false
     - name: "Regular Party Package"
       price: 270
@@ -56,7 +61,12 @@ pricing:
       price: 30
       includes: 
           - Field Fee
+<<<<<<< HEAD
       extras: $10 for all day High Pressure Air
+=======
+          - We no longer offer CO2
+      extras: HPA Tank Rental $5.00 with $25.00 deposit
+>>>>>>> refs/remotes/origin/main
       description: "Save money by bringing your own equipment"
       animate: true
     - name: "HPA Tank Rental"
