@@ -75,15 +75,21 @@
     const minutes = document.querySelector(".minutes");
     const seconds = document.querySelector(".seconds");
     const timerToggle = document.getElementById('timerToggle')
+    let viewed = false
 
+//  check if countdown was viewed and clicked and halt
 
+if (sessionStorage.getItem('countdownViewed')) {
+            viewed = true
+            document.querySelector('.countdown').classList.add('d-none')
+
+        } else if (!viewed && !sessionStorage.getItem('countdownViewed')) {
 
 const countdownTimer = setInterval(() => {
 
+
         //  Set Area 51 Alien Invasion Target Date
         const targetDate = new Date(2022, 06, 29, 16, 00, 00);
-
-        console.log(targetDate)
 
         //  Grab The Current Date
         const currentDate = Date.now();
@@ -116,7 +122,10 @@ const countdownTimer = setInterval(() => {
 
     timerToggle.addEventListener('click', () => {
 
+        sessionStorage.setItem('countdownViewed', true);
+
         clearInterval(countdownTimer)
         document.querySelector('.countdown').classList.add('d-none')
     })
+}
 </script>

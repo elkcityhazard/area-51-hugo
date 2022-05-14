@@ -1,6 +1,6 @@
 ---
 headless: true
-closed_season: true
+closed_season: false
 hours:
 - day: Monday
   start: closed
@@ -23,8 +23,8 @@ hours:
   finish: closed
   id: 5
 - day: Saturday
-  start: closed 
-  finish: closed
+  start: 9:30am 
+  finish: 6:00pm
   id: 6
 - day: Sunday
   start: closed
