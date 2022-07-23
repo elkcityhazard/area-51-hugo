@@ -5,6 +5,7 @@ author: Area 51 Paintball
 publishDate: 2022-02-28
 start_date: 2022-07-16
 end_date: 2022-07-17
+expiryDate: 2022-07-16
 draft: true
 cost: $50
 image: /images/events/2022/swampy2022.jpeg
