@@ -56,10 +56,10 @@
   </div>
   <div class="row">
     <div class="col mx-auto p-3 text-center d-flex flex-column flex-sm-row align-items-center justify-content-center">
-      <span class="bg-dark text-white fw-bolder mx-1 fs-6 days">24</span><span>&nbsp;Days</span>
-      <span class="bg-dark text-white fw-bolder mx-1 fs-6 hours">25</span><span>&nbsp;Hours</span>
-      <span class="bg-dark text-white fw-bolder mx-1 fs-6 minutes">25</span><span>&nbsp;Minutes</span>
-      <span class="bg-dark text-white fw-bolder mx-1 fs-6 seconds">24</span><span>&nbsp;Seconds</span>
+      <span class="bg-dark text-white fw-bolder mx-1 fs-6 days">-</span><span>&nbsp;Days</span>
+      <span class="bg-dark text-white fw-bolder mx-1 fs-6 hours">-</span><span>&nbsp;Hours</span>
+      <span class="bg-dark text-white fw-bolder mx-1 fs-6 minutes">-</span><span>&nbsp;Minutes</span>
+      <span class="bg-dark text-white fw-bolder mx-1 fs-6 seconds">-</span><span>&nbsp;Seconds</span>
     </div>
   </div>
   <div class="row">
@@ -76,10 +76,16 @@
     const seconds = document.querySelector(".seconds");
     const timerToggle = document.getElementById('timerToggle')
     let viewed = false
+    let expired = false
+
+    if (expired) {
+        document.querySelector('.countdown').classList.add('d-none')
+        
+    }
 
 //  check if countdown was viewed and clicked and halt
 
-if (sessionStorage.getItem('countdownViewed')) {
+if (sessionStorage.getItem('countdownViewed') ) {
             viewed = true
             document.querySelector('.countdown').classList.add('d-none')
 
@@ -89,7 +95,10 @@ const countdownTimer = setInterval(() => {
 
 
         //  Set Area 51 Alien Invasion Target Date
+        //const targetDate = new Date(2022, 06, 29, 16, 00, 00);
+
         const targetDate = new Date(2022, 06, 29, 16, 00, 00);
+
 
         //  Grab The Current Date
         const currentDate = Date.now();
@@ -114,8 +123,10 @@ const countdownTimer = setInterval(() => {
 
         console.log(day, hour, minute, second)
 
-        if (diff === 0) {
+        if (diff <= 0) {
+            expired = true
             clearInterval(countdownTimer)
+            document.querySelector('.countdown').classList.add('d-none')
         }
         
     }, 1000)
