@@ -22,10 +22,12 @@
        const script = document.getElementById('bootstrapJS');
 
         bootstrapJS.addEventListener('load', () => {
+            return null
             setTimeout(() => {
                 const myModal = new bootstrap.Modal(document.getElementById('eventModal'))
 
                 if (!localStorage.getItem('modal')) {
+                    return null
                     myModal.show();
                     localStorage.setItem('modal', true)
                 }
