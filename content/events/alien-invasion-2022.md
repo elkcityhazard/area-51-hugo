@@ -1,6 +1,7 @@
 ---
 title: Alien Invasion 2022
 description: "Area 51 Alien Invasion will take you on a paintball journey you won't forget. Get ready to play all day, camp under the stars with friends, and create memories."
+draft: true
 author: Area 51 Paintball
 publishDate: 2022-02-28
 start_date: 2022-07-29
