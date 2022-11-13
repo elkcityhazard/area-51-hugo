@@ -4,6 +4,7 @@ description: "Night Vision Game In Partnership With Nocturnal Excursions"
 author: Area 51 Paintball
 publishDate: 2022-09-18
 start_date: 2022-10-21T18:00:00
+expiryDate: 2022-10-21T18:00:00:00
 end_date: 
 cost: See Details
 image: /events/2022/10/nocturnal-excursions.jpeg

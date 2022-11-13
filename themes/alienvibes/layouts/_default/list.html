@@ -14,7 +14,9 @@
                 <div class="row">
                     <div class="col-12">
                         <section class="list w-100 mx-auto">
-                            {{ range sort .Pages ".Params.start_date" "asc"}}
+                            {{ range sort .Pages ".Params.start_date" "asc" }}
+
+                            {{ if (lt .Date .ExpiryDate) }}
                             <div class="row my-3">
                                 <div class="col-12">
                                     <div class="card blog d-block">
@@ -74,6 +76,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{ end }}
                             {{ end }}
                         </section>
                     </div>
