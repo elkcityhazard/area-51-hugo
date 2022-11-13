@@ -28,7 +28,7 @@
                 <h4 class="text-warning text-decoration-underline">Hours</h4>
                 <ul class="list-group border-0 ps-0">
                     {{ with .GetPage "footerBlock"}}
-                    {{ if .Params.closed_season }}
+                    {{ if .Site.Params.closed_for_season }}
 
                     <p>We Are Closed For The Season</p>
 

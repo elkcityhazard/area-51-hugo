@@ -14,8 +14,9 @@
 
     .marquee {
         animation: marquee 10s linear infinite;
+        animation: none;
         overflow-x: hidden;
-        width: max-content;
+        width: auto;
     }
     .marquee:hover {
         animation-play-state: paused;
@@ -27,11 +28,11 @@
     }
 
 </style>
-<section class="d-none container-fluid alert alert-dismissible alert-danger text-center">
+<section class="container-fluid alert alert-dismissible alert-danger text-center">
     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     <div class="row">
-        <div class="col col-xs-12 col-md-12 col-xl-6 mx-auto text-center marquee-container">
-            <p class="lead marquee p-2"><strong>Our Opening Day Will Be <time class="text-dark px-2">Saturday, May 14, 2022</time></strong></p>
+        <div class="col col-xs-12 col-md-12 col-xl-9 mx-auto text-center marquee-container">
+            <p class="lead marquee p-2"><strong>We Are Officially Closed For The Season.  See you in 2023! Thanks for the great season!</strong></p>
         </div>
     </div>
 </section>
