@@ -4,7 +4,7 @@ description: "Area 51 Alien Invasion will take you on a paintball journey you wo
 draft: false
 author: Area 51 Paintball
 publishDate: 2023-02-28
-start_date: 2023-07-21
+start_date: 2023-07-21T16:00:00
 end_date: 2023-07-23
 expiryDate: 2023-07-23
 cost: See Details
