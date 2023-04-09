@@ -47,7 +47,7 @@
 }
 </style>
 
-<section class="container-fluid countdown bg-black">
+<section class="container-fluid countdown bg-black d-none">
     <button id="timerToggle" class="close-timer btn btn-warning text-dark">&times;</button>
   <div class="row">
     <div class="col-12 mx-auto p-3 text-center">
@@ -97,7 +97,9 @@ const countdownTimer = setInterval(() => {
         //  Set Area 51 Alien Invasion Target Date
         //const targetDate = new Date(2022, 06, 29, 16, 00, 00);
 
-        const targetDate = new Date('October 21, 2022 18:00:00');
+        //const targetDate = new Date('October 21, 2022 18:00:00');
+
+    const targetDate = new Date('July 21, 2023 16:00:00');
 
 
         //  Grab The Current Date
@@ -127,6 +129,9 @@ const countdownTimer = setInterval(() => {
             expired = true
             clearInterval(countdownTimer)
             document.querySelector('.countdown').classList.add('d-none')
+        } else {
+            document.querySelector('.countdown').classList.remove(['d-none'])
+
         }
         
     }, 1000)
