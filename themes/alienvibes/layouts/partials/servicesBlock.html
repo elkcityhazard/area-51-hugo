@@ -10,12 +10,12 @@
                 {{ end }}
             </div>
         </div>
-        <div class="row">
+        <div class="row align-items-stretch mx-auto justify-content-start justify-content-xl-between">
                 {{ with .Site.GetPage "services" }}
                     {{ range .Params.services }}
-                    <div class="col-12 col-md-6 col-lg-4 mx-auto my-3">
-                    <div class="card border-warning mb-3 mx-auto">
-                        <div class="card-header d-flex align-items-center"><i class="fas fa-check-circle fa-2x text-warning mx-2"></i><h3 class="card-title"><a href="{{ .url | absURL }}" title="{{ .name }}" class="text-white text-decoration-none">{{ .name }}</a></h3></div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-2 my-3">
+                    <div class="card border-warning mb-3 mx-auto h-100 interactive">
+                        <div class="card-header d-flex align-items-center update-header p-2"><i class="fas fa-check-circle fa-2x text-warning mx-2"></i><h3 class="card-title fs-4"><a href="{{ .url | absURL }}" title="{{ .name }}" class="text-white text-decoration-none">{{ .name }}</a></h3></div>
                         <div class="card-body bg-dark">
                           <p class="card-text text-white">{{ .description }}</p>
                           <a href="{{ .url | absURL}}" title="{{ .name}}" role="button" class="btn btn-outline-warning btn-small fw-normal p-3 m-2 d-block d-lg-inline-block text-uppercase">{{ .name }}</a>
@@ -25,6 +25,38 @@
                     {{ end }} 
 
                 {{ end }}
+
+
+                <script defer>
+
+                                       
+                    const headers = document.querySelectorAll(".update-header")
+
+                    function uniformHeaderSize(headers){
+  
+                      let newHeight = 0
+
+                      for (const h of headers) {
+                          console.log(h)
+                          if (h.scrollHeight > newHeight) newHeight = h.scrollHeight
+                      }
+                  
+                      for (const i of headers) {
+                          i.style.height = newHeight + 'px'
+                      }
+                  
+                    }
+
+                    uniformHeaderSize(headers)
+
+
+
+                    
+
+                   
+
+                </script>
+
                 {{ end }}
         </div>
     </div>
