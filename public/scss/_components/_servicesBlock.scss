@@ -48,3 +48,14 @@
         }
     }
 }
+
+.interactive {
+    -webkit-transition: all 250ms eas !important;
+    -moz-transition: all 250ms ease !important;
+    transition: all 250ms ease !important;
+    &:hover {
+        -moz-transform: rotateZ(-3deg);
+        -webkit-transform: rotateZ(-3deg);
+        transform: rotateZ(-3deg);
+    }
+}
