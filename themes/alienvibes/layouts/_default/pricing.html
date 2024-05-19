@@ -14,17 +14,17 @@
         </div>
     </div>
 </header>
-<main class="single pricing container mx-auto p-3">
-    <section class="row justify-content-start fw-bolder">
+<main class="container mx-auto p-3">
+    <section class="row justify-content-start align-items-stretch fw-bolder">
         {{ range .Params.pricing }}
-        <div class="col-12 mx-auto text-start {{ with .animate}} animate-card {{ end }}">
-            <div class="card border-info mb-3">
-                <div class="card-header">
-                    <h2 aria-label="product name" class="card-title">{{ .name | markdownify }}</h2>
-                    <strong class="ps-3"><i class="fa fa-dollar-sign fa-2x"></i> <span class="h2 card-text ps-1">{{ .price | markdownify }}</span></strong>
+        <div class="col col-md-6 col-lg-4 mb-4">
+            <div class="card border-info p-3 mb-3 bg-primary h-100">
+                <div class="d-flex flex-column align-items-center justify-content-start gap-4">
+                    <h2 aria-label="product name" class="fs-4 mb-0">{{ .name | markdownify }}</h2>
+                    <strong class="fs-4"><i class="fa fa-dollar-sign fs-4"></i> <span class="fs-4">{{ .price | markdownify }}</span></strong>
                 </div>
                 <div class="card-body">
-                    <ul class="list-group-flush">
+                    <ul class="list-group-flush px-0">
                         {{ with .includes}}
                         {{ range . }}
                         <li class="list-group-item">{{ . }}</li>
@@ -41,9 +41,6 @@
                     {{ end }}
                 </div>
             </div>
-        </div>
-        <div class="col-12 mx-auto text-center p-3">
-            <i class="fas fa-chevron-circle-down fa-3x text-warning"></i>
         </div>
         {{ end }}
     </section>

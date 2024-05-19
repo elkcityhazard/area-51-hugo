@@ -37,6 +37,6 @@ address:
     - <a href="mailto:a51valkencup@gmail.com" title="email area 51 paintball"><i class="fas fa-envelope fa-lg me-2"></i>a51valkencup@gmail.com</a>
     - <a href="https://www.facebook.com/A51Paintball" title="area 51 paintball facebook" rel="noreferrer noopener"><i class="fab fa-facebook fa-lg me-2 text-success"></i>Facebook</a>
     - <i class="fas fa-restroom fa-lg me-2 text-success"></i>We Have Restrooms
-    - <i class="fas fa-baby fa-lg me-2 text-success"></i> Must be 10 years old or older
+    - <i class="fas fa-baby fa-lg me-2 text-success"></i> Must be 12 years old or older
     
 ---

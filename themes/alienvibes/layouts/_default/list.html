@@ -34,17 +34,17 @@
                                                 </div>
                                                 {{ if .Params.start_date }}
                                                 <div class="d-block d-md-inline-block">
-                                                <strong><i class="fa fa-clock ps-1" aria-label="event date"></i></strong> <strong class="ps-1"><small>Start:</small></strong> <span class="ps-1">{{ time.Format "Mon, Jan 02 2006 15:04:05" .Params.start_date }}</span>
+                                                <strong><i class="fa fa-clock ps-1" aria-label="event date"></i></strong> <strong class="ps-1"><small>Start:</small></strong> <span class="ps-1">{{ time.Format "Mon, Jan 02 2006 03:04:05 PM" .Params.start_date }}</span>
                                                 </div>
                                                 {{ end }}
                                                 {{ if .Params.end_date }}
-                                                <div class="d-block d-md-inline-block">
+                                                <div class=" d-none">
                                                 <strong><i class="fa fa-clock ps-1" aria-label="event date"></i></strong><strong class="ps-1"><small>End: </small></strong >
-                                                    <span class="ps-1">{{ time.Format "Monday, Jan 2, 2006" .Params.end_date }}</span>
+                                                    <span class="ps-1">{{ time.Format "Mon, Jan 02 2006 03:04:05 PM" .Params.end_date }}</span>
                                                 </div>
                                                 {{ end }}
                                                 {{ if .Params.cost }}
-                                                <div class="d-block d-md-inline-block">
+                                                <div class="d-none">
                                                 <strong><i class="fa fa-dollar-sign ps-1" aria-label="cost of event"></i></strong> <strong class="ps-1"><small>Cost: </small></strong> <span class="ps-1">{{ .Params.cost }}</span>
                                             </div>
                                                 

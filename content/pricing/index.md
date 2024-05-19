@@ -40,8 +40,8 @@ pricing:
       extras: $10 to upgrade paintball marker
       description: "Full Rental Registration includes: A Paintball Marker, Paintball Mask, A Pod Pack with 2 Pods, 500 rounds of Paintballs, Field Pass"
       animate: true
-    - name: "D3FY"
-      price: 55G
+    - name: "HK"
+      price: 60
       includes: 
           - 2000 Rounds
           - Rounded for accurate shooting
@@ -61,8 +61,9 @@ pricing:
       description: "Save money by bringing your own equipment"
       animate: true
     - name: "HPA Tank Rental"
-      price: "5.00 with $25.00 deposit"
+      price: 5
       includes:
+          - 5.00 with $25.00 deposit
           - High Pressure Air Tank Rental Available
       extras: false
       description: false

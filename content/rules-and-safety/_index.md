@@ -33,7 +33,7 @@ rules_of_engagement:
     - Shoot only in active game zones
     - Aiming is required before shooting
     - Eliminations only if paint breaks
-    - Gun hits do not count
+    - Gun hits do count
     - Cease fire on eliminated players
     - If hit, leave game zone quickly
     - If unsure, ask for a paint check

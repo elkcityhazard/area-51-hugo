@@ -1,3 +1,74 @@
+function setNewCookie(key="refresh_cache", value=true) {
+  // Set the cookie name and value
+  var cookieName = key;
+  var cookieValue = value;
+
+// Set the expiration date to 30 days from now
+  var expirationDate = new Date();  
+  expirationDate.setDate(expirationDate.getDate() + 30);
+
+// Set the cookie with the name, value, and expiration date
+  document.cookie = cookieName + "=" + cookieValue + "; expires=" + expirationDate.toUTCString() + "; path=/";
+}
+
+function checkRefreshCacheCookie(cookieName) {
+  var cookies = document.cookie.split(";");
+  for (var i = 0; i < cookies.length; i++) {
+    var cookie = cookies[i].trim();
+    if (cookie.startsWith(cookieName+"=")) {
+      return true;
+    }
+  }
+  return false;
+}
+
+
+(function(){
+
+  // get the current url
+
+  let url =  new URL(location.href)
+
+  // get the current query params
+
+  let params = new URLSearchParams(url.searchParams)
+
+  const refreshFlag = params.get("token")
+
+
+  // if there is no frefresh flag set, check if a cookie exists, set one if there isn't one, bail out of the function if we already refreshed the cache
+  if (!refreshFlag) {
+
+    const cookieExists = checkRefreshCacheCookie("refresh_cache")
+
+    if (!cookieExists) {
+      setNewCookie("refresh_cache", true)
+    } else {
+      return
+    }
+
+
+
+    // create new query params
+    const queryParams = {
+      token: "refresh_cache",
+      timestamp: Date.now(),
+    }
+    // copy the url from location.href and reset the query params
+    const redirectURL = url
+
+    Object.keys(queryParams).forEach(key => redirectURL.searchParams.append(key, queryParams[key]))
+
+    // redirect
+
+    location.assign(redirectURL)
+    
+    
+  }
+
+})()
+
+
 const images = document.querySelectorAll(".lazy");
 const bgImages = document.querySelectorAll(".lazy-bg");
 
@@ -98,6 +169,11 @@ const parallax = (id, rate) => {
     window.addEventListener("scroll", initParallax(id, rate));
   };
 };
+
+
+
+
+
 
 
 

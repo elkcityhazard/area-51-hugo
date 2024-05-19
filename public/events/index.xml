@@ -2,57 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Area 51 Paintball Events on Area 51 Paintball</title>
-    <link>https://area51paintball.net/events/</link>
+    <link>http://localhost:1313/events/</link>
     <description>Recent content in Area 51 Paintball Events on Area 51 Paintball</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://area51paintball.net/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 May 2024 18:58:59 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Area 51 &amp; Swamp Monkey Productions Present: Old School Fun &amp; Games — August 26 - 27, 2023</title>
-      <link>https://area51paintball.net/events/2023/08/old-school-paintball-fun/</link>
-      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://area51paintball.net/events/2023/08/old-school-paintball-fun/</guid>
-      <description>Area 51 and Swamp Monkey Productions are teaming up to bring you a weekend if old school fun and games. No electros, just pump and mechanical guns. August 26-27 $40.00 for Field fee and air for weekend $30.00 for Field fee and air for Saturday only $50.00 includes rental only available for Saturday Paint is $55.00 a case Free camping starting Friday night.
-Registration starts a 10 am.
-Game formats to be determined but will include Capture the Flag and Attack and Defend.</description>
+      <title>Alien Invasion Paintball Event 2024</title>
+      <link>http://localhost:1313/events/2024/alien-invasion-paintball-event/</link>
+      <pubDate>Sat, 18 May 2024 18:58:59 -0400</pubDate>
+      <guid>http://localhost:1313/events/2024/alien-invasion-paintball-event/</guid>
+      <description> FIELD FEE’S OWN GEAR $45.00 – preregister $65.00 – at the gate FULL RENTAL PAINT NOT INCLUDED $60.00 – preregister $80.00 – at the gate PREREGISTRATION ENDS JULY 16TH. FIELD PAINT REQUIRED $60.00 per 2000 Rd. CASE FRIDAY JULY 19TH 4;00 PM Registration Play Starts as People Show Up 2 Vs. 2 tournament Winners are Team Captains SATURDAY JULY 20TH 9:00 AM Registration 10:00 AM Game Starts 6:00 PM Awards Dinner (catered) SUNDAY JULY 21ST 8:00 AM Players Breakfast (Sponsored by the MISFITS) 9:00 AM Registration 10:00 AM Full Field Play </description>
     </item>
-    
     <item>
-      <title>Friday Night Under The Lights — August 18th, 2023</title>
-      <link>https://area51paintball.net/events/2023/08/friday-night-under-the-lights-august-18-2023/</link>
-      <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://area51paintball.net/events/2023/08/friday-night-under-the-lights-august-18-2023/</guid>
-      <description>More Details Soon</description>
+      <title>Battle of Normandy Paintball Event</title>
+      <link>http://localhost:1313/events/2024/battle-of-normandy-paintball-event/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024/battle-of-normandy-paintball-event/</guid>
+      <description>Here is the relevant text formatted as markdown:&#xA;COME AND JOIN OUR FIRST ANNUAL BATTLE OF NORMANDY June 8th &amp;amp; 9th&#xA;Free Rustic Camping Restrooms &amp;amp; Showers available on site FRIDAY 5:00 pm open to players setting up camp possible tire ball if enough people wanting to play SATURDAY 9:00 AM Registration 10:00 AM Game starts 5:00 PM Game ends SUNDAY 10:00 AM Open Field play 4:00 PM Field Closes FIELD FEE&amp;rsquo;S OWN GEAR</description>
     </item>
-    
     <item>
-      <title>Friday Night Under The Lights — October 20th, 2023</title>
-      <link>https://area51paintball.net/events/2023/10/friday-night-under-the-lights-october-20-2023/</link>
-      <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://area51paintball.net/events/2023/10/friday-night-under-the-lights-october-20-2023/</guid>
-      <description>More Details Soon</description>
+      <title>Swampy&#39;s Pump &amp; Mech Weekend</title>
+      <link>http://localhost:1313/events/2024/swampys-pump-and-mech-paintball-event/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024/swampys-pump-and-mech-paintball-event/</guid>
+      <description>Swampy&amp;rsquo;s Pump And Mech Weekend AUGUST 17 -18&#xA;FREE RUSTIC CAMPING RESTROOMS AND SHOWER AVALIABLE ON SITE&#xA;WHAT TO EXPECT Area 51 and Swamp Monkey Productions are teaming up to bring you a weekend of old school fun and games. NO ELECTROS, just pump and mechanical guns. August 17-18&#xA;$40.00 for Field Fee and Air for Weekend $30.00 for Field Fee and Air for Saturday only $50.00 includes rental only available for Saturday only *Paint is $60.</description>
     </item>
-    
-    <item>
-      <title>Friday Night Under The Lights — September 15th, 2023</title>
-      <link>https://area51paintball.net/events/2023/09/friday-night-under-the-lights-september-15-2023/</link>
-      <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://area51paintball.net/events/2023/09/friday-night-under-the-lights-september-15-2023/</guid>
-      <description>More Details Soon</description>
-    </item>
-    
     <item>
       <title>Paintball Night - Nocturnal Excursions</title>
-      <link>https://area51paintball.net/events/2022/10/nocturnal-excursions/</link>
+      <link>http://localhost:1313/events/2022/10/nocturnal-excursions/</link>
       <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://area51paintball.net/events/2022/10/nocturnal-excursions/</guid>
+      <guid>http://localhost:1313/events/2022/10/nocturnal-excursions/</guid>
       <description>Come join us October 21st for our night vision game. Night vision pricing PVS 7 $49.99 PVS 14 green phosphor $69.99 PVS 14 white phosphor $89.99 Aeternus dual tube green phosphor $149.99 Dual PVS 14 with Panobridge mount green phosphor $159.99 Dual PVS 14 with Panobridge mount white phosphor $199.99 Field fee&amp;rsquo;s Full rental $50.00 includes 3 pod of paint (DOES NOT INCLUDE NIGHT VISION) Field Fee + air $30.00 (DOES NOT INCLUDE NIGHT VISION) Glow in the dark paint $5.</description>
     </item>
-    
   </channel>
 </rss>
