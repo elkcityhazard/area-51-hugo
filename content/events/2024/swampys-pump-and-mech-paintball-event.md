@@ -7,7 +7,7 @@ date: now.Format "January 2, 2016"
 publishDate: 2024-05-18
 start_date: 2024-08-17T10:00:00
 end_date: 2024-08-18T16:00:00
-expiryDate: 2024-06-15
+expiryDate: 2024-08-18
 cost: See Details
 image: /images/events/2024/swampys_pump_and_mech_2024.jpeg
 images:
