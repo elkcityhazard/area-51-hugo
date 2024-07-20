@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.123.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.127.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,13 @@
     <meta name="description" content="Area 51 Paintball is a paintball center and outdoor recreation facility located near Mancelona, Michigan.">
     
 
-    <meta property="og:title" content="Area 51 Paintball" />
-<meta property="og:description" content="Area 51 Paintball is a paintball center and outdoor recreation facility located near Mancelona, Michigan." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" /><meta property="og:image" content="http://localhost:1313/images/area-51-logo.webp" />
-
+    <meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="Area 51 Paintball">
+  <meta property="og:title" content="Area 51 Paintball">
+  <meta property="og:description" content="Area 51 Paintball is a paintball center and outdoor recreation facility located near Mancelona, Michigan.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/area-51-logo.webp">
 
 
     <link rel="shortcut icon" href="http://localhost:1313/images/icon.png" type="image/x-icon">
@@ -761,7 +763,7 @@
 }
 </style>
 
-<section class="container-fluid countdown bg-black">
+<section class="container-fluid countdown bg-black d-none">
     <button id="timerToggle" class="close-timer btn btn-warning text-dark">&times;</button>
   <div class="row">
     <div class="col-12 mx-auto p-3 text-center">
@@ -837,7 +839,6 @@ const countdownTimer = setInterval(() => {
         minutes.textContent = minute
         seconds.textContent = second
 
-        console.log(day, hour, minute, second)
 
         if (diff <= 0) {
             expired = true
@@ -859,6 +860,7 @@ const countdownTimer = setInterval(() => {
     })
 }
 </script>
+
 <script id="bootstrapJS" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 <script src="/js/script.js" defer></script><script defer>
        const script = document.getElementById('bootstrapJS');

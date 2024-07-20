@@ -47,7 +47,7 @@
 }
 </style>
 
-<section class="container-fluid countdown bg-black">
+<section class="container-fluid countdown bg-black d-none">
     <button id="timerToggle" class="close-timer btn btn-warning text-dark">&times;</button>
   <div class="row">
     <div class="col-12 mx-auto p-3 text-center">
@@ -123,7 +123,6 @@ const countdownTimer = setInterval(() => {
         minutes.textContent = minute
         seconds.textContent = second
 
-        console.log(day, hour, minute, second)
 
         if (diff <= 0) {
             expired = true
