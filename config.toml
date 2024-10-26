@@ -6,14 +6,13 @@ theme = "alienvibes"
 [params]
 description = "Area 51 Paintball is a rustic outdoor paintball center located North of Kalkaska, Michigan."
 logo = "/images/area-51-logo.webp"
-closed_for_season = false
-
+closed_for_season = true
 
 
 [markup]
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 
 ## Additional Comments ##
@@ -65,7 +64,6 @@ url = "/pricing"
 weight = 7
 
 
-
 [[menu.main]]
 identifier = "corporate-entertainment-services"
 name = "Corporate Entertainment Services"
@@ -107,5 +105,3 @@ parent = "paintball-services"
 # url = "/paintball-services/paintball-lessons"
 # weight = 6
 # parent = "paintball-services"
-
-

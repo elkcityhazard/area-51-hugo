@@ -1,6 +1,6 @@
 ---
 headless: true
-closed_season: false
+closed_season: true
 hours:
 - day: Monday
   start: closed
@@ -23,7 +23,7 @@ hours:
   finish: closed
   id: 5
 - day: Saturday
-  start: 9:30am 
+  start: 9:30am
   finish: 5:00pm
   id: 6
 - day: Sunday
@@ -38,5 +38,5 @@ address:
     - <a href="https://www.facebook.com/A51Paintball" title="area 51 paintball facebook" rel="noreferrer noopener"><i class="fab fa-facebook fa-lg me-2 text-success"></i>Facebook</a>
     - <i class="fas fa-restroom fa-lg me-2 text-success"></i>We Have Restrooms
     - <i class="fas fa-baby fa-lg me-2 text-success"></i> Must be 12 years old or older
-    
+
 ---

@@ -7,7 +7,7 @@ date: 2024-05-18T18:58:59-04:00
 publishDate: 2024-05-18
 start_date: 2024-07-19T16:00:00
 end_date: 2024-07-21T16:00:00
-expiryDate: 2024-07-30
+expiryDate: 2024-07-30T00:00:00
 cost: See Details
 image: /images/events/2024/alien_invasion_2024.jpeg
 images:

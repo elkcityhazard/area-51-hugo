@@ -3,11 +3,11 @@ title: "Battle of Normandy Paintball Event"
 description: "Come and join our first annual battle of normandy paintball event at area 51 paintball in mancelona, michigan"
 draft: false
 author: Area 51 Paintball
-date: now.Format "January 2, 2006"
+date: 2024-05-26
 publishDate: 2024-05-18
-start_date: 2024-06-07T17:00:00 
+start_date: 2024-06-07T17:00:00
 end_date: 2024-06-10T16:00:00
-expiryDate: 2024-06-15
+expiryDate: 2024-06-15T23:59:00
 cost: See Details
 image: /images/events/2024/battle_of_normandy_2024.jpeg
 images:

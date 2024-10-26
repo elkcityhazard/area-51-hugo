@@ -3,7 +3,7 @@ title: "Swampy's Pump & Mech Weekend"
 description: "Area 51 and Swamp Monkey Productions are teaming up to bring you a weekend of old school fun and games. NO ELECTROS, just pump and mechanical guns."
 draft: false
 author: Area 51 Paintball
-date: now.Format "January 2, 2016"
+date: 2024-05-26
 publishDate: 2024-05-18
 start_date: 2024-08-17T10:00:00
 end_date: 2024-08-18T16:00:00
