@@ -65,8 +65,7 @@
                     {{ else }} {{ range .Params.hours}}
                     <li class="list-group-item bg-transparent border-0 ps-0">
                         <span id="day-{{ .id }}" class="day"
-                            >{{ .day | markdownify }}: {{ .start | markdownify
-                            }} - {{ .finish | markdownify }}</span
+                            >{{ .day | markdownify }}: {{ .start | markdownify }} - {{ .finish | markdownify }}</span
                         >
                     </li>
                     {{ end }} {{ end }} {{ end }}
