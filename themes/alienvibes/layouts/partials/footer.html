@@ -77,9 +77,7 @@
                 <address>
                     <ul class="list-group border-0 ps-0">
                         {{ with .GetPage "footerBlock" }} {{ range .Params.address }}
-                        <li
-                            class="list-group-item ps-0 border-0 bg-transparent"
-                        >
+                        <li class="list-group-item ps-0 border-0 bg-transparent">
                             {{ . | markdownify }}
                         </li>
                         {{ end }} {{ end }}
