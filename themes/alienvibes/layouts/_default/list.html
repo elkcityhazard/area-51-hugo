@@ -58,13 +58,24 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-12 col-md-3 p-2 d-flex align-items-center justify-content-center">
+                                                        {{ $eventURL := .RelPermalink}}
+                                                        {{ $eventName := .Title }}
+                                                        {{ with .Resources.ByType "image" }}
+                                                            {{ with index . 0 }}
+                                                            
+                                                        <a href="{{- $eventURL | absURL -}}" title="{{- $eventName -}}" aria-label="event hyperlink">
+                                                            <img data-src="{{ .RelPermalink }}" class="lazy fluid-img object-fit-cover" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
+                                                        </a>
+                                                            {{ end }}
+                                                        {{ else }}
                                                         {{ if .Params.image }}
-                                                        <a href="{{- .RelPermalink | absURL -}}" title="{{- .Title -}}" aria-label="event hyperlink">
+                                                        <a href="{{- .RelPermalink | absURL -}}" title="{{- $eventName -}}" aria-label="event hyperlink">
                                                             <img data-src="{{ .Params.image | absURL }}" class="lazy fluid-img object-fit-cover" loading="lazy" decoding="async" alt="Post Thumbnail" height="150" width="150">
                                                         </a>
                                                         {{ else }}
                                                         <img data-src="{{- .Site.BaseURL -}}images/area-51-logo.webp" alt="logo thumbnail" class="lazy fluid-img object-fit-cover" loading="lazy" decoding="async" height="100" width="100">
                                                         {{- end -}}
+                                                        {{ end }}
                                                     </div>
                                                     <div class="col-12 col-md-9 p-2">
                                                         <p> {{.Description | markdownify }}</p>

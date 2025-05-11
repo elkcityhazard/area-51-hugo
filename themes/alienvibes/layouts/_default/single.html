@@ -9,7 +9,14 @@
 <main class="container mx-auto p-3 single">
     {{ if .Params.image}}
     <figure>
+    {{ $imgTitle := .Title }}
+    {{ with .Resources.ByType "image" }}
+        {{ range . }}
+        <img data-src="{{ .RelPermalink }}" alt="{{ $imgTitle }}" decoding="async" class="lazy fluid-img" height="600" width="1200">
+        {{ end }}
+    {{ else }}
         <img data-src="{{ .Params.image | absURL}}" alt="{{ .Title }}" decoding="async" class="lazy fluid-img" height="600" width="1200">
+        {{ end }}
     </figure>
     {{ end }}
     <article>

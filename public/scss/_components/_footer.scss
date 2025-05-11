@@ -1,0 +1,61 @@
+@use "./mixins";
+
+@keyframes waveAnimation {
+  from {
+    transform: rotateZ(-15deg) translate3D(0, -5%, 0) scale(1);
+  }
+  to {
+    transform: rotateZ(15deg) translate3D(0, 5%, 0) scale(1.05);
+  }
+}
+
+.footer {
+  .container {
+    .row {
+      .col-12 {
+        .footer-link {
+          @include mixins.transition;
+          transition-duration: 250ms;
+          -webkit-transition-duration: 250ms;
+          .fa-chevron-right {
+            @include mixins.transition;
+            transition-duration: 250ms;
+            -webkit-transition-duration: 250ms;
+          }
+          &:hover {
+            transition-duration: 250ms;
+            -webkit-transition-duration: 250ms;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+            .fa-chevron-right {
+              color: #f29b11;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.elevator {
+  @include mixins.transition;
+  position: fixed;
+  bottom: 1rem;
+  right: 2.0rem;
+  opacity: 0;
+  z-index: 10;
+  i.fa-arrow-circle-up {
+    &:hover {
+      color: #f29b11 !important;
+    }
+  }
+}
+
+.wave.animate {
+    @include mixins.transition;
+    display: inline-block;
+    transition-duration: 250ms;
+    -webkit-transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    animation: waveAnimation 250ms linear alternate 20;
+}
