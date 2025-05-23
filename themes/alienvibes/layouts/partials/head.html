@@ -1,36 +1,48 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title}} | {{ .Site.Title }}</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ .Title}} | {{ .Site.Title }}</title>
 
-    {{ with .Description }}
-    <meta name="description" content="{{ . }}">
-    {{ else }}
-    <meta name="description" content="{{ .Site.Params.description}}">
-    {{ end }}
+  {{ with .Description }}
+  <meta name="description" content="{{ . }}" />
+  {{ else }}
+  <meta name="description" content="{{ .Site.Params.description}}" />
+  {{ end }} {{ template "_internal/opengraph.html" . }}
 
-    {{ template "_internal/opengraph.html" .  }}
+  <link
+    rel="shortcut icon"
+    href="{{ .Site.BaseURL}}images/icon.png"
+    type="image/x-icon"
+  />
 
-    <link rel="shortcut icon" href="{{ .Site.BaseURL}}images/icon.png" type="image/x-icon">
+  <!-- Preload, Prefetch, preconnect etc. -->
 
-    <!-- Preload, Prefetch, preconnect etc. -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="preconnect" href="https://plausible.io" />
 
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="https://plausible.io">
+  <!-- Vendors -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="{{ .Site.BaseURL}}css/bootstrap.min.css" />
 
-    <!-- Vendors -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{ .Site.BaseURL}}css/bootstrap.min.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{- .Site.BaseURL -}}css/main.css">
-
-    {{ with .Params.gallery }}
-
-    <!-- <script type="text/javascript" src="https://bd27262ff848bd272624411.zapwp.com/generate_js:true"></script> -->
-    {{ end }}
-    <script defer data-domain="area51paintball.net" src="https://plausible.io/js/plausible.js"></script>
-
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{- .Site.BaseURL -}}css/main.css" />
+  {{ if hugo.IsProduction }}
+  <script
+    defer
+    src="https://stats.protoweb.io/script.js"
+    data-website-id="3c1db2ec-9965-4637-b58b-585d0b1a64af"
+  ></script>
+  {{ end }}
 </head>

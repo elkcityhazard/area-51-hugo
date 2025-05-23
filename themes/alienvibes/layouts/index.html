@@ -2,8 +2,10 @@
 <html lang="en">
 {{ partial "head.html" . }}
 <body id="top">
-    {{ if .Site.Params.closed_for_season }}
-    {{ partial "closedForSeasons.html" . }}
+    {{ with .Site.GetPage "/topBanner" }}
+    {{ if .Params.enabled }}
+        {{ partial "closedForSeasons.html" . }}
+    {{ end }}
     {{ end }}
     {{ partial "navBar.html" . }}
     {{ partial "heroHeader.html" . }}

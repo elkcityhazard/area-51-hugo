@@ -27,15 +27,22 @@
         text-transform: uppercase;
     }
 </style>
-<section class="container-fluid alert alert-dismissible alert-info text-center">
+{{ with .Site.GetPage "/topBanner" }}
+    {{ if .Params.enabled }}
+        <section class="container-fluid alert alert-dismissible alert-info text-center">
     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     <div class="row">
         <div
             class="col col-xs-12 col-md-12 col-xl-9 mx-auto text-center marquee-container"
         >
             <p class="lead marquee p-2 text-uppercase">
-                <strong>Opening Day is May 17, 2025!</strong>
+                <strong>{{with .Params.message}}{{.}}{{end}}</strong>
             </p>
         </div>
     </div>
 </section>
+
+    {{ end }}
+
+{{ end }}
+

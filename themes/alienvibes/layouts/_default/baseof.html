@@ -1,21 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    {{- partial "head.html" . -}}
-    <body id="top">
-        {{ if .Site.Params.closed_for_season }}
+  {{- partial "head.html" . -}}
+  <body id="top">
+    {{ with .Site.GetPage "/topBanner" }}
+    {{ if .Params.enabled }}
         {{ partial "closedForSeasons.html" . }}
-        {{ end }}
-        {{ partial "navBar.html" . }}
-        {{- partial "header.html" . -}}
-        <div class="container-fluid">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{ partial "servicesBlock.html" . }}
-        {{ partial "cta.html" . }}
-        {{ partial "testimonials.html" .}}
-        {{ partial "locationBlock.html" . }}
-        {{ partial "safety-requirements.html" . }}
-        {{- partial "footer.html" . -}}
-        {{- partial "scripts.html" . -}}
-    </body>
+    {{ end }}
+    {{ end }} 
+    {{ partial "navBar.html" . }} 
+    {{- partial "header.html" . -}}
+    <div class="container-fluid">
+      {{- block "main" . }}{{- end }}
+    </div>
+    {{ partial "servicesBlock.html" . }} 
+    {{ partial "cta.html" . }} 
+    {{ partial "testimonials.html" .}} 
+    {{ partial "locationBlock.html" . }} 
+    {{ partial "safety-requirements.html" . }} 
+    {{- partial "footer.html" . -}} 
+    {{- partial "scripts.html" . -}}
+  </body>
 </html>
