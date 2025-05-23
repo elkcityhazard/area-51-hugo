@@ -38,7 +38,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{- .Site.BaseURL -}}css/main.css" />
-  {{ if hugo.IsProduction }}
+  {{ if eq hugo.Environment "production" }}
   <script
     defer
     src="https://stats.protoweb.io/script.js"
