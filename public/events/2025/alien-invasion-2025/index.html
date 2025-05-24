@@ -192,13 +192,12 @@
                 class="row align-items-stretch mx-auto justify-content-start justify-content-xl-between"
             >
                  
+                
                 <div class="col-12 col-md-6 col-lg-4 col-xl-2 my-3">
                     <div
                         class="card border-warning mb-3 mx-auto h-100 interactive"
                     >
-                        <div
-                            class="card-header d-flex align-items-center update-header p-2"
-                        >
+                        <div class="card-header h-auto d-flex align-items-center update-header p-2" style="min-height:7rem;">
                             <i
                                 class="fas fa-check-circle fa-2x text-warning mx-2"
                             ></i>
@@ -230,9 +229,7 @@
                     <div
                         class="card border-warning mb-3 mx-auto h-100 interactive"
                     >
-                        <div
-                            class="card-header d-flex align-items-center update-header p-2"
-                        >
+                        <div class="card-header h-auto d-flex align-items-center update-header p-2" style="min-height:7rem;">
                             <i
                                 class="fas fa-check-circle fa-2x text-warning mx-2"
                             ></i>
@@ -264,9 +261,7 @@
                     <div
                         class="card border-warning mb-3 mx-auto h-100 interactive"
                     >
-                        <div
-                            class="card-header d-flex align-items-center update-header p-2"
-                        >
+                        <div class="card-header h-auto d-flex align-items-center update-header p-2" style="min-height:7rem;">
                             <i
                                 class="fas fa-check-circle fa-2x text-warning mx-2"
                             ></i>
@@ -298,9 +293,7 @@
                     <div
                         class="card border-warning mb-3 mx-auto h-100 interactive"
                     >
-                        <div
-                            class="card-header d-flex align-items-center update-header p-2"
-                        >
+                        <div class="card-header h-auto d-flex align-items-center update-header p-2" style="min-height:7rem;">
                             <i
                                 class="fas fa-check-circle fa-2x text-warning mx-2"
                             ></i>
@@ -332,9 +325,7 @@
                     <div
                         class="card border-warning mb-3 mx-auto h-100 interactive"
                     >
-                        <div
-                            class="card-header d-flex align-items-center update-header p-2"
-                        >
+                        <div class="card-header h-auto d-flex align-items-center update-header p-2" style="min-height:7rem;">
                             <i
                                 class="fas fa-check-circle fa-2x text-warning mx-2"
                             ></i>
@@ -362,31 +353,7 @@
                     </div>
                 </div>
                  
-
-                <script defer>
-                    let newHeight = 0;
-                    const headers = document.querySelectorAll(".update-header");
-
-                    function uniformHeaderSize(headers) {
-                        newHeight = 0;
-
-                        for (const h of headers) {
-                            if (h.scrollHeight > newHeight)
-                                newHeight = h.scrollHeight;
-                        }
-
-                        for (const i of headers) {
-                            i.style.height = newHeight + 5 + "px";
-                        }
-                    }
-                    uniformHeaderSize(headers)();
-
-                    window.addEventListener("resize", () => {
-                        newHeight = 0;
-                        uniformHeaderSize(headers);
-                    });
-                </script>
-
+                
                 
             </div>
         </div>

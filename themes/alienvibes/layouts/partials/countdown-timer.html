@@ -69,7 +69,20 @@
   </div>
 </section>
 
-<script defer>
+
+
+<script type="module" type="text/javascript" defer>
+    import {eventData} from "/js/events.js"
+    const {events = []} = eventData
+    
+    //  sort the efvents by date and remove any that are expired
+    const sortedByDate = events.sort(function(a,b) {
+        return new Date(b.date) + new Date(a.date)
+    }).filter((el) => {
+        return new Date(el.date) >= new Date(Date.now())
+    })
+
+
     const days = document.querySelector(".days");
     const hours = document.querySelector(".hours");
     const minutes = document.querySelector(".minutes");
@@ -93,17 +106,13 @@ if (sessionStorage.getItem('countdownViewed') ) {
 
 const countdownTimer = setInterval(() => {
 
-
-        //  Set Area 51 Alien Invasion Target Date
-        //const targetDate = new Date(2022, 06, 29, 16, 00, 00);
-
-        //const targetDate = new Date('October 21, 2022 18:00:00');
-
-    const targetDate = new Date('July 04, 2025 16:00:00');
-
-
-        //  Grab The Current Date
+         //  Grab The Current Date
         const currentDate = Date.now();
+        // get the next date in the sorted event list
+        const [nextDate,...rest] = sortedByDate
+        const targetDate = new Date(nextDate.date)
+
+         
 
         // Get the difference of the targetDate - currentDate
 

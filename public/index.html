@@ -972,7 +972,20 @@
   </div>
 </section>
 
-<script defer>
+
+
+<script type="module" type="text/javascript" defer>
+    import {eventData} from "/js/events.js"
+    const {events = []} = eventData
+    
+    
+    const sortedByDate = events.sort(function(a,b) {
+        return new Date(b.date) + new Date(a.date)
+    }).filter((el) => {
+        return new Date(el.date) >= new Date(Date.now())
+    })
+
+
     const days = document.querySelector(".days");
     const hours = document.querySelector(".hours");
     const minutes = document.querySelector(".minutes");
@@ -996,17 +1009,13 @@ if (sessionStorage.getItem('countdownViewed') ) {
 
 const countdownTimer = setInterval(() => {
 
-
-        
-        
-
-        
-
-    const targetDate = new Date('July 04, 2025 16:00:00');
-
-
-        
+         
         const currentDate = Date.now();
+        
+        const [nextDate,...rest] = sortedByDate
+        const targetDate = new Date(nextDate.date)
+
+         
 
         
 
