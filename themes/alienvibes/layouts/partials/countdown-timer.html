@@ -111,11 +111,7 @@ const countdownTimer = setInterval(() => {
         // get the next date in the sorted event list
         const [nextDate,...rest] = sortedByDate
         const targetDate = new Date(nextDate.date)
-
-         
-
         // Get the difference of the targetDate - currentDate
-
         const diff = targetDate - currentDate;
 
         //  Calculate respective values
