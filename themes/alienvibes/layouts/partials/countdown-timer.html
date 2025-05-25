@@ -82,6 +82,8 @@
         return new Date(el.date) >= new Date(Date.now())
     })
 
+    if (!sortedByDate.length) return
+
 
     const days = document.querySelector(".days");
     const hours = document.querySelector(".hours");
