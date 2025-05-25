@@ -985,9 +985,6 @@
         return new Date(el.date) >= new Date(Date.now())
     })
 
-    if (!sortedByDate.length) return
-
-
     const days = document.querySelector(".days");
     const hours = document.querySelector(".hours");
     const minutes = document.querySelector(".minutes");
@@ -1010,6 +1007,11 @@ if (sessionStorage.getItem('countdownViewed') ) {
         } else if (!viewed && !sessionStorage.getItem('countdownViewed')) {
 
 const countdownTimer = setInterval(() => {
+
+        if (!sortedByDate.length) {
+          clearnInterval(countdownTimer)
+          return
+        }
 
          
         const currentDate = Date.now();
