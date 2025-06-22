@@ -14,7 +14,12 @@ const eventData = {
       title: "Double Your Pleasure Doube The Swampy",
       date: "2025-08-16T00:00:00",
       url: "/events/2025/double-your-pleasure-double-the-swampy/"
-    }
+    },
+    {
+      title: "Three Man Charity Event",
+      date: "2025-08-30T00:00:00",
+      url: "/events/2025/three-man-charity/"
+    },
   ]
 }
 
