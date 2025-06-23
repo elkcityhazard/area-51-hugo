@@ -81,7 +81,6 @@ function lazyLoadImages(entries, observer) {
       console.log(entry);
       entry.target.src = entry.target.getAttribute("data-src");
       entry.target.onload = function (e) {
-        console.log(e.target);
         e.target.classList.remove("d-none");
       };
       setTimeout(() => {
