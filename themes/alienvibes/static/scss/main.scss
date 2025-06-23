@@ -86,3 +86,19 @@ section.rules {
         }
     }
 }
+
+.is-countdown {
+  --countdown-max-width: calc(350 / 16  * 1rem);
+  width: min(var(--countdown-max-width),100%);
+  margin: auto;
+  gap: 1rem;
+  flex-flow: row wrap;
+  > [class*="col-"] {
+    flex: 1 1 calc(50% - 1rem);
+    width: calc(50% - 1rem);
+    @media screen and (min-width: calc(250 / 16 * 1rem)) {
+      flex: 1 1 calc(25% - 3rem);
+      width: calc(25% - 3rem);
+    }
+  }
+}
