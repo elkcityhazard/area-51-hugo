@@ -1,73 +1,71 @@
-function setNewCookie(key="refresh_cache", value=true) {
+function setNewCookie(key = "refresh_cache", value = true) {
   // Set the cookie name and value
   var cookieName = key;
   var cookieValue = value;
 
-// Set the expiration date to 30 days from now
-  var expirationDate = new Date();  
+  // Set the expiration date to 30 days from now
+  var expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate() + 30);
 
-// Set the cookie with the name, value, and expiration date
-  document.cookie = cookieName + "=" + cookieValue + "; expires=" + expirationDate.toUTCString() + "; path=/";
+  // Set the cookie with the name, value, and expiration date
+  document.cookie =
+    cookieName +
+    "=" +
+    cookieValue +
+    "; expires=" +
+    expirationDate.toUTCString() +
+    "; path=/";
 }
 
 function checkRefreshCacheCookie(cookieName) {
   var cookies = document.cookie.split(";");
   for (var i = 0; i < cookies.length; i++) {
     var cookie = cookies[i].trim();
-    if (cookie.startsWith(cookieName+"=")) {
+    if (cookie.startsWith(cookieName + "=")) {
       return true;
     }
   }
   return false;
 }
 
-
-(function(){
-
+(function () {
   // get the current url
 
-  let url =  new URL(location.href)
+  let url = new URL(location.href);
 
   // get the current query params
 
-  let params = new URLSearchParams(url.searchParams)
+  let params = new URLSearchParams(url.searchParams);
 
-  const refreshFlag = params.get("token")
-
+  const refreshFlag = params.get("token");
 
   // if there is no frefresh flag set, check if a cookie exists, set one if there isn't one, bail out of the function if we already refreshed the cache
   if (!refreshFlag) {
-
-    const cookieExists = checkRefreshCacheCookie("refresh_cache")
+    const cookieExists = checkRefreshCacheCookie("refresh_cache");
 
     if (!cookieExists) {
-      setNewCookie("refresh_cache", true)
+      setNewCookie("refresh_cache", true);
     } else {
-      return
+      return;
     }
-
-
 
     // create new query params
     const queryParams = {
       token: "refresh_cache",
       timestamp: Date.now(),
-    }
+    };
     // copy the url from location.href and reset the query params
-    const redirectURL = url
+    const redirectURL = url;
 
-    Object.keys(queryParams).forEach(key => redirectURL.searchParams.append(key, queryParams[key]))
+    Object.keys(queryParams).forEach((key) =>
+      redirectURL.searchParams.append(key, queryParams[key]),
+    );
 
     // redirect
 
-    location.assign(redirectURL)
-    
-    
+    location.assign(redirectURL);
   }
-
-})()
-
+})();
 
 const images = document.querySelectorAll(".lazy");
 const bgImages = document.querySelectorAll(".lazy-bg");
@@ -80,10 +78,15 @@ let options = {
 function lazyLoadImages(entries, observer) {
   entries.forEach((entry) => {
     if (entry.intersectionRatio > 0) {
+      console.log(entry);
       entry.target.src = entry.target.getAttribute("data-src");
+      entry.target.onload = function (e) {
+        console.log(e.target);
+        e.target.classList.remove("d-none");
+      };
       setTimeout(() => {
         entry.target.classList.add("fadeIn");
-        observer.unobserve(entry.target)
+        observer.unobserve(entry.target);
       }, 500);
     }
   });
@@ -95,7 +98,7 @@ function lazyBackground(entries, observer) {
   entries.forEach((entry) => {
     if (entry.intersectionRatio > 0) {
       entry.target.style.background = `linear-gradient(0.25turn, hsla(155, 67%, 45%, 0.5), hsla(155, 67%, 45%, 0.5)), url(${entry.target.getAttribute(
-        "data-background"
+        "data-background",
       )}) no-repeat center center / cover`;
     }
   });
@@ -148,15 +151,15 @@ document.body.addEventListener("scroll", (e) => {
   }
 });
 
-// THe Wave 
+// THe Wave
 
-document.body.addEventListener('scroll', (e) => {
-    if (e.target.scrollTop >= e.target.scrollHeight - window.innerHeight - 100) {
-        document.querySelector('.wave').classList.add('animate');
-    } else {
-        document.querySelector('.wave').classList.remove('animate');
-    }
-})
+document.body.addEventListener("scroll", (e) => {
+  if (e.target.scrollTop >= e.target.scrollHeight - window.innerHeight - 100) {
+    document.querySelector(".wave").classList.add("animate");
+  } else {
+    document.querySelector(".wave").classList.remove("animate");
+  }
+});
 
 // Parallax
 const parallax = (id, rate) => {
@@ -169,15 +172,3 @@ const parallax = (id, rate) => {
     window.addEventListener("scroll", initParallax(id, rate));
   };
 };
-
-
-
-
-
-
-
-
-
-
-
-
