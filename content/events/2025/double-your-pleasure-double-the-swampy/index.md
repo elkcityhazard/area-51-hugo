@@ -1,6 +1,6 @@
 
 ---
-title: "Double Your Pleasure Doube The Swampy"
+title: "Double Your Pleasure Double The Swampy"
 description: "Area 51 Paintball Presents: Double Your Pleasure Double The Swampy."
 draft: false
 author: Area 51 Paintball
