@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.147.9"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,6 +51,56 @@
 
 <body id="top">
     
+    
+        <style>
+    @keyframes marquee {
+        from {
+            transform: translate3D(150%, 0, 0);
+        }
+
+        to {
+            transform: translate3D(-100%, 0, 0);
+        }
+    }
+    .marquee-container {
+        overflow-x: hidden;
+    }
+
+    .marquee {
+        animation: marquee 10s linear infinite;
+        animation: none;
+        overflow-x: hidden;
+        width: auto;
+    }
+    .marquee:hover {
+        animation-play-state: paused;
+    }
+
+    time {
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+</style>
+
+    
+        <section class="container-fluid alert alert-dismissible alert-info text-center">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <div class="row">
+        <div
+            class="col col-xs-12 col-md-12 col-xl-9 mx-auto text-center marquee-container"
+        >
+            <p class="lead marquee p-2 text-uppercase">
+                <strong>Closed Until Spring 2026. Check back for opening dates and special events.</strong>
+            </p>
+        </div>
+    </div>
+</section>
+
+    
+
+
+
+
     
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -808,42 +858,10 @@
       <div class="col-12 col-md-3 mx-auto p-2">
         <h4 class="text-warning text-decoration-underline">Hours</h4>
         <ul class="list-group border-0 ps-0">
-            
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-1" class="day"
-              >Monday: closed - closed</span>
-          </li>
-          
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-2" class="day"
-              >Tuesday: closed - closed</span>
-          </li>
-          
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-3" class="day"
-              >Wednesday: closed - closed</span>
-          </li>
-          
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-4" class="day"
-              >Thursday: closed - closed</span>
-          </li>
-          
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-5" class="day"
-              >Friday: closed - closed</span>
-          </li>
-          
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-6" class="day"
-              >Saturday: 9:30am - 5:00pm</span>
-          </li>
-          
-          <li class="list-group-item bg-transparent border-0 ps-0">
-            <span id="day-0" class="day"
-              >Sunday: closed - closed</span>
-          </li>
            
+
+          <p>We Are Closed For The Season</p>
+
            
           
         </ul>
@@ -1000,7 +1018,10 @@
 
 <script type="module" type="text/javascript" defer>
     import {eventData} from "/js/events.js"
+    console.log("hi mom")
+    const [countdownTimerSection = null] = document.getElementsByClassName('countdown')
     const {events = []} = eventData
+
     
     
     const sortedByDate = events.sort(function(a,b) {
@@ -1008,6 +1029,11 @@
     }).filter((el) => {
         return new Date(el.date) >= new Date(Date.now())
     })
+    console.log(sortedByDate)
+    if (!sortedByDate.length) {
+      countdownTimerSection.classList.remove('d-block')
+      countdownTimerSection.classList.add('d-none')
+    }
 
     const days = document.querySelector(".days");
     const hours = document.querySelector(".hours");
@@ -1033,7 +1059,7 @@ if (sessionStorage.getItem('countdownViewed') ) {
 const countdownTimer = setInterval(() => {
 
         if (!sortedByDate.length) {
-          clearnInterval(countdownTimer)
+          clearInterval(countdownTimer)
           return
         }
 

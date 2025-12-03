@@ -79,7 +79,10 @@
 
 <script type="module" type="text/javascript" defer>
     import {eventData} from "/js/events.js"
+    console.log("hi mom")
+    const [countdownTimerSection = null] = document.getElementsByClassName('countdown')
     const {events = []} = eventData
+
     
     //  sort the efvents by date and remove any that are expired
     const sortedByDate = events.sort(function(a,b) {
@@ -87,6 +90,11 @@
     }).filter((el) => {
         return new Date(el.date) >= new Date(Date.now())
     })
+    console.log(sortedByDate)
+    if (!sortedByDate.length) {
+      countdownTimerSection.classList.remove('d-block')
+      countdownTimerSection.classList.add('d-none')
+    }
 
     const days = document.querySelector(".days");
     const hours = document.querySelector(".hours");
@@ -112,7 +120,7 @@ if (sessionStorage.getItem('countdownViewed') ) {
 const countdownTimer = setInterval(() => {
 
         if (!sortedByDate.length) {
-          clearnInterval(countdownTimer)
+          clearInterval(countdownTimer)
           return
         }
 

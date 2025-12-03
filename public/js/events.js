@@ -24,5 +24,5 @@ const eventData = {
 }
 
 export {
-    eventData
+  eventData
 }
