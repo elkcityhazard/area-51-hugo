@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
+	<meta name="generator" content="Hugo 0.161.1">
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -53,56 +53,6 @@
 
 <body id="top">
     
-    
-        <style>
-    @keyframes marquee {
-        from {
-            transform: translate3D(150%, 0, 0);
-        }
-
-        to {
-            transform: translate3D(-100%, 0, 0);
-        }
-    }
-    .marquee-container {
-        overflow-x: hidden;
-    }
-
-    .marquee {
-        animation: marquee 10s linear infinite;
-        animation: none;
-        overflow-x: hidden;
-        width: auto;
-    }
-    .marquee:hover {
-        animation-play-state: paused;
-    }
-
-    time {
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-</style>
-
-    
-        <section class="container-fluid alert alert-dismissible alert-info text-center">
-    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-    <div class="row">
-        <div
-            class="col col-xs-12 col-md-12 col-xl-9 mx-auto text-center marquee-container"
-        >
-            <p class="lead marquee p-2 text-uppercase">
-                <strong>Closed Until Spring 2026. Check back for opening dates and special events.</strong>
-            </p>
-        </div>
-    </div>
-</section>
-
-    
-
-
-
-
     
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -860,10 +810,42 @@
       <div class="col-12 col-md-3 mx-auto p-2">
         <h4 class="text-warning text-decoration-underline">Hours</h4>
         <ul class="list-group border-0 ps-0">
+            
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-1" class="day"
+              >Monday: closed - closed</span>
+          </li>
+          
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-2" class="day"
+              >Tuesday: closed - closed</span>
+          </li>
+          
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-3" class="day"
+              >Wednesday: closed - closed</span>
+          </li>
+          
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-4" class="day"
+              >Thursday: closed - closed</span>
+          </li>
+          
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-5" class="day"
+              >Friday: closed - closed</span>
+          </li>
+          
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-6" class="day"
+              >Saturday: 9:30am - 5:00pm</span>
+          </li>
+          
+          <li class="list-group-item bg-transparent border-0 ps-0">
+            <span id="day-0" class="day"
+              >Sunday: closed - closed</span>
+          </li>
            
-
-          <p>We Are Closed For The Season</p>
-
            
           
         </ul>
@@ -913,7 +895,7 @@
   <div class="row">
     <div class="col md-12">
       <p class="text-center p-3">
-        &copy; <span id="year">2025</span> Site Designed &
+        &copy; <span id="year">2026</span> Site Designed &
         Developed By
         <a
           href="https://www.andrew-mccall.com/services/web-development-traverse-city"
@@ -1020,10 +1002,9 @@
 
 <script type="module" type="text/javascript" defer>
     import {eventData} from "/js/events.js"
-    console.log("hi mom")
     const [countdownTimerSection = null] = document.getElementsByClassName('countdown')
     const {events = []} = eventData
-
+        let haveInjectedTitle = false
     
     
     const sortedByDate = events.sort(function(a,b) {
@@ -1031,7 +1012,6 @@
     }).filter((el) => {
         return new Date(el.date) >= new Date(Date.now())
     })
-    console.log(sortedByDate)
     if (!sortedByDate.length) {
       countdownTimerSection.classList.remove('d-block')
       countdownTimerSection.classList.add('d-none')
@@ -1055,11 +1035,10 @@
 if (sessionStorage.getItem('countdownViewed') ) {
             viewed = true
             document.querySelector('.countdown').classList.add('d-none')
-
         } else if (!viewed && !sessionStorage.getItem('countdownViewed')) {
 
-const countdownTimer = setInterval(() => {
 
+const countdownTimer = setInterval(() => {
         if (!sortedByDate.length) {
           clearInterval(countdownTimer)
           return
@@ -1069,6 +1048,11 @@ const countdownTimer = setInterval(() => {
         const currentDate = Date.now();
         
         const [nextDate,...rest] = sortedByDate
+        const [htmlEl] = document.getElementsByClassName('countdown')
+        const [row] = htmlEl.getElementsByClassName('row')
+      
+        injectTitle(nextDate,row)
+        
         const targetDate = new Date(nextDate.date)
         
         const diff = targetDate - currentDate;
@@ -1100,13 +1084,26 @@ const countdownTimer = setInterval(() => {
     }, 1000)
 
     timerToggle.addEventListener('click', () => {
-
         sessionStorage.setItem('countdownViewed', true);
-
         clearInterval(countdownTimer)
         document.querySelector('.countdown').classList.add('d-none')
     })
 }
+
+    function injectTitle(eventObj = null, htmlObj=null) {
+        if (!eventObj || !htmlObj) return
+        if (!haveInjectedTitle) {
+        const title = document.createElement('h3')
+        title.id="eventTitleBanner"
+          title.classList.add(...['h3','text-center'])
+        title.textContent = eventObj?.title || ""
+        htmlObj.prepend(title)
+          haveInjectedTitle = true
+        }
+        
+        
+
+    }
 </script>
 
 <script id="bootstrapJS" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>

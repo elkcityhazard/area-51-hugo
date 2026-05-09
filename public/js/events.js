@@ -1,24 +1,24 @@
 const eventData = {
   events: [
     {
-      title: "Fourth Of July Weekend Paintball",
-      date: "2025-07-04T00:00:00",
-      url: "/events/2025/fourth-of-july-2025/"
+      title: "Three Man Random Draw For Charity",
+      date: "2026-06-20T00:00:00",
+      url: "/events/2026/three-man-charity-jun-20/"
     },
     {
-      title: "Alien Invasion 2025",
-      date: "2025-07-18T00:00:00",
-      url: "/events/2025/alien-invasion-2025/"
+      title: "Alien Invasion 2026",
+      date: "2026-07-017T00:00:00",
+      url: "/events/2026/fourth-of-july-2026/"
     },
     {
-      title: "Double Your Pleasure Doube The Swampy",
-      date: "2025-08-16T00:00:00",
-      url: "/events/2025/double-your-pleasure-double-the-swampy/"
+      title: "Swampy's Old Skool Game #9: Revenge of the Woodballer",
+      date: "2026-08-21T00:00:00",
+      url: "/events/2026/double-your-pleasure-double-the-swampy/"
     },
     {
-      title: "Three Man Charity Event",
-      date: "2025-08-30T00:00:00",
-      url: "/events/2025/three-man-charity/"
+      title: "Three Man Random Draw For Charity",
+      date: "2026-09-19T00:00:00",
+      url: "/events/2026/three-man-charity-sept-19/"
     },
   ]
 }

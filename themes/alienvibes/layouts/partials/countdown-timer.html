@@ -79,10 +79,9 @@
 
 <script type="module" type="text/javascript" defer>
     import {eventData} from "/js/events.js"
-    console.log("hi mom")
     const [countdownTimerSection = null] = document.getElementsByClassName('countdown')
     const {events = []} = eventData
-
+        let haveInjectedTitle = false
     
     //  sort the efvents by date and remove any that are expired
     const sortedByDate = events.sort(function(a,b) {
@@ -90,7 +89,6 @@
     }).filter((el) => {
         return new Date(el.date) >= new Date(Date.now())
     })
-    console.log(sortedByDate)
     if (!sortedByDate.length) {
       countdownTimerSection.classList.remove('d-block')
       countdownTimerSection.classList.add('d-none')
@@ -114,11 +112,10 @@
 if (sessionStorage.getItem('countdownViewed') ) {
             viewed = true
             document.querySelector('.countdown').classList.add('d-none')
-
         } else if (!viewed && !sessionStorage.getItem('countdownViewed')) {
 
-const countdownTimer = setInterval(() => {
 
+const countdownTimer = setInterval(() => {
         if (!sortedByDate.length) {
           clearInterval(countdownTimer)
           return
@@ -128,6 +125,11 @@ const countdownTimer = setInterval(() => {
         const currentDate = Date.now();
         // get the next date in the sorted event list
         const [nextDate,...rest] = sortedByDate
+        const [htmlEl] = document.getElementsByClassName('countdown')
+        const [row] = htmlEl.getElementsByClassName('row')
+      
+        injectTitle(nextDate,row)
+        
         const targetDate = new Date(nextDate.date)
         // Get the difference of the targetDate - currentDate
         const diff = targetDate - currentDate;
@@ -159,11 +161,24 @@ const countdownTimer = setInterval(() => {
     }, 1000)
 
     timerToggle.addEventListener('click', () => {
-
         sessionStorage.setItem('countdownViewed', true);
-
         clearInterval(countdownTimer)
         document.querySelector('.countdown').classList.add('d-none')
     })
 }
+
+    function injectTitle(eventObj = null, htmlObj=null) {
+        if (!eventObj || !htmlObj) return
+        if (!haveInjectedTitle) {
+        const title = document.createElement('h3')
+        title.id="eventTitleBanner"
+          title.classList.add(...['h3','text-center'])
+        title.textContent = eventObj?.title || ""
+        htmlObj.prepend(title)
+          haveInjectedTitle = true
+        }
+        
+        
+
+    }
 </script>
