@@ -1,5 +1,5 @@
 baseURL = "https://area51paintball.net/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Area 51 Paintball"
 theme = "alienvibes"
 # update

@@ -15,7 +15,7 @@ images:
     - ./swampy_2026.jpg
 ---
 
-# Double Your Pleasure, Double the Swampy! 🎯
+# Swampy's Old Skool Game #9: Revenge of the Woodsballer 🎯
 
 ## Event Details
 **Dates:** August 21st to 23rd 2026 
@@ -27,6 +27,7 @@ images:
 - Onsite restrooms & shower
 
 ### Pricing:
+- Call for information
 
 ### Tournament:
 - **1 vs. 1 Tournament** on Saturday Night
@@ -34,4 +35,5 @@ images:
 ---
 
 ### Game Schedule:
+- Callf or Information
 
