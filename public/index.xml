@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Area 51 Paintball</title>
-    <link>https://area51paintball.net/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Area 51 Paintball</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Sep 2026 16:00:00 -0400</lastBuildDate>
-    <atom:link href="https://area51paintball.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Three Man Random Draw Charity - Sept. 19</title>
-      <link>https://area51paintball.net/events/2026/three-man-charity-sept-19/</link>
+      <link>http://localhost:1313/events/2026/three-man-charity-sept-19/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 -0400</pubDate>
-      <guid>https://area51paintball.net/events/2026/three-man-charity-sept-19/</guid>
+      <guid>http://localhost:1313/events/2026/three-man-charity-sept-19/</guid>
       <description>&lt;h1 id=&#34;join-us-for-the-three-man-random-draw-for-charity&#34;&gt;Join Us for the Three Man Random Draw for Charity!&lt;/h1&gt;&#xA;&lt;p&gt;Get ready for an exciting day of &lt;strong&gt;paintball&lt;/strong&gt; in &lt;strong&gt;northern Michigan&lt;/strong&gt; while supporting a great cause! Mark your calendars for &lt;strong&gt;Saturday, September 19th, 2026&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Event:&lt;/strong&gt; Three Man Random Draw for Charity&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Saturday, September 19th, 2026&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Area 51 Paintball, near &lt;strong&gt;Cadillac&lt;/strong&gt; and &lt;strong&gt;Mancelona&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Contact:&lt;/strong&gt; 231-577-6252&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;entry-fees&#34;&gt;Entry Fees&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Entry Fee:&lt;/strong&gt; $15 per person&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Paint Cost:&lt;/strong&gt; $60&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;supporting-a-good-cause&#34;&gt;Supporting a Good Cause&lt;/h3&gt;&#xA;&lt;p&gt;This event is not just about the thrill of &lt;strong&gt;paintball&lt;/strong&gt;; it&amp;rsquo;s also a chance to contribute to &lt;strong&gt;Project Feed the Kids&lt;/strong&gt;. Come have fun while making a difference in the lives of those in need!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Swampy&#39;s Old Skool Game #9: Revenge of the Woodsballer</title>
-      <link>https://area51paintball.net/events/2026/double-your-pleasure-double-the-swampy/</link>
+      <link>http://localhost:1313/events/2026/double-your-pleasure-double-the-swampy/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 -0400</pubDate>
-      <guid>https://area51paintball.net/events/2026/double-your-pleasure-double-the-swampy/</guid>
+      <guid>http://localhost:1313/events/2026/double-your-pleasure-double-the-swampy/</guid>
       <description>&lt;h1 id=&#34;swampys-old-skool-game-9-revenge-of-the-woodsballer-&#34;&gt;Swampy&amp;rsquo;s Old Skool Game #9: Revenge of the Woodsballer 🎯&lt;/h1&gt;&#xA;&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dates:&lt;/strong&gt; August 21st to 23rd 2026&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;amenities&#34;&gt;Amenities:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Free rustic camping&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Onsite restrooms &amp;amp; shower&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pricing&#34;&gt;Pricing:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call for information&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tournament&#34;&gt;Tournament:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 vs. 1 Tournament&lt;/strong&gt; on Saturday Night&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;game-schedule&#34;&gt;Game Schedule:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Callf or Information&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>2 VS. 2: Alien Invasion Tournament</title>
-      <link>https://area51paintball.net/events/2026/two-vs-two/</link>
+      <link>http://localhost:1313/events/2026/two-vs-two/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 -0400</pubDate>
-      <guid>https://area51paintball.net/events/2026/two-vs-two/</guid>
+      <guid>http://localhost:1313/events/2026/two-vs-two/</guid>
       <description>&lt;h1 id=&#34;area-51-alien-invasion-tournament---2-vs-2&#34;&gt;Area 51: Alien Invasion Tournament - 2 VS. 2&lt;/h1&gt;&#xA;&lt;h2 id=&#34;dates&#34;&gt;Dates:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Friday July 17th, 2026 @ DUSK&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;event-details&#34;&gt;Event Details:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10.5 Ramp or Semi&lt;/li&gt;&#xA;&lt;li&gt;20 Team Cap&lt;/li&gt;&#xA;&lt;li&gt;2 Pod / Per Match&lt;/li&gt;&#xA;&lt;li&gt;Bracket Style&lt;/li&gt;&#xA;&lt;li&gt;Field Paint Only&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;pricing&#34;&gt;Pricing:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$10 per player&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;additional-info&#34;&gt;Additional Info:&lt;/h2&gt;&#xA;&lt;p&gt;Prizes for top 2 teams&#xA;All proceeds benefit charity&#xA;Wear your amber or clear lens&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alien Invasion Paintball Event 2026</title>
-      <link>https://area51paintball.net/events/2026/alien-invasion-2026/</link>
+      <link>http://localhost:1313/events/2026/alien-invasion-2026/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 -0400</pubDate>
-      <guid>https://area51paintball.net/events/2026/alien-invasion-2026/</guid>
+      <guid>http://localhost:1313/events/2026/alien-invasion-2026/</guid>
       <description>&lt;h1 id=&#34;alien-invasion-2026-&#34;&gt;Alien Invasion 2026! 🚀&lt;/h1&gt;&#xA;&lt;h2 id=&#34;dates&#34;&gt;Dates:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;July 17th, 18th, &amp;amp; 19th&lt;/strong&gt; 2026&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;cost&#34;&gt;Cost&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pre-Reg: $45 (ends July 4th)&lt;/li&gt;&#xA;&lt;li&gt;$70 day of&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;event-details&#34;&gt;Event Details:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Free rustic camping&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Restrooms &amp;amp; shower available on site&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;schedule&#34;&gt;Schedule:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Friday:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;4:00 PM:&lt;/strong&gt; Registration opens&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2 vs. 2 Tournament:&lt;/strong&gt; Starts as teams show up&lt;/li&gt;&#xA;&lt;li&gt;$10 per player&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Saturday:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;9:00 AM:&lt;/strong&gt; Registration&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;10:00 AM:&lt;/strong&gt; Game rules briefing and start&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;5:00 PM:&lt;/strong&gt; Game Ends&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sunday:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;9:00 AM:&lt;/strong&gt; Registration&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;10:00 AM:&lt;/strong&gt; Game On&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;3:00 PM:&lt;/strong&gt; Game End&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;3:30 PM:&lt;/strong&gt; Final Battle&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;4:00:&lt;/strong&gt; Event End&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;field-fees--rental-fees&#34;&gt;Field Fees &amp;amp; Rental Fees&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$65.00 - Cases&lt;/li&gt;&#xA;&lt;li&gt;Rentals available for additional fee&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;important-notes&#34;&gt;Important Notes:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cost of paint not included&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Pre-registration ends &lt;strong&gt;July 4th&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Field paint required for gameplay.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Three Man Random Draw Charity - June 20th</title>
-      <link>https://area51paintball.net/events/2026/three-man-charity-jun-20/</link>
+      <link>http://localhost:1313/events/2026/three-man-charity-jun-20/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 -0400</pubDate>
-      <guid>https://area51paintball.net/events/2026/three-man-charity-jun-20/</guid>
+      <guid>http://localhost:1313/events/2026/three-man-charity-jun-20/</guid>
       <description>&lt;h1 id=&#34;join-us-for-the-three-man-random-draw-for-charity-in-traverse-city&#34;&gt;Join Us for the Three Man Random Draw for Charity in Traverse City!&lt;/h1&gt;&#xA;&lt;p&gt;Get ready for an exciting day of &lt;strong&gt;paintball&lt;/strong&gt; in &lt;strong&gt;northern Michigan&lt;/strong&gt; while supporting a great cause! Mark your calendars for &lt;strong&gt;Saturday, June 20th, 2026&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Event:&lt;/strong&gt; Three Man Random Draw for Charity&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Saturday, June 20th, 2026&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Area 51 Paintball, near &lt;strong&gt;Cadillac&lt;/strong&gt; and &lt;strong&gt;Mancelona&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Contact:&lt;/strong&gt; 231-577-6252&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;entry-fees&#34;&gt;Entry Fees&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Entry Fee:&lt;/strong&gt; $15 per person&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Paint Cost:&lt;/strong&gt; $60&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;supporting-a-good-cause&#34;&gt;Supporting a Good Cause&lt;/h3&gt;&#xA;&lt;p&gt;This event is not just about the thrill of &lt;strong&gt;paintball&lt;/strong&gt;; it&amp;rsquo;s also a chance to contribute to &lt;strong&gt;Project Feed the Kids&lt;/strong&gt;. Come have fun while making a difference in the lives of those in need!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pricing</title>
-      <link>https://area51paintball.net/pricing/</link>
+      <link>http://localhost:1313/pricing/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/pricing/</guid>
+      <guid>http://localhost:1313/pricing/</guid>
       <description></description>
     </item>
     <item>
       <title>Area 51 Paintball Center</title>
-      <link>https://area51paintball.net/paintball-center/</link>
+      <link>http://localhost:1313/paintball-center/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/paintball-center/</guid>
+      <guid>http://localhost:1313/paintball-center/</guid>
       <description></description>
     </item>
     <item>
       <title>Walk On Play</title>
-      <link>https://area51paintball.net/paintball-services/walk-on-play/</link>
+      <link>http://localhost:1313/paintball-services/walk-on-play/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/paintball-services/walk-on-play/</guid>
-      <description>&lt;h2 id=&#34;what-is-walk-on-play-at-area-51-paintball&#34;&gt;What Is Walk On Play At Area 51 Paintball?&lt;/h2&gt;&#xA;&lt;img data-src=&#34;https://area51paintball.net/images/walk-on-play.webp&#34; class=&#34;lazy fluid-img&#34; decoding=&#34;async&#34; height=&#34;600&#34; width=&#34;1200&#34; /&gt;&#xA;&lt;p&gt;&lt;strong&gt;Walk on play&lt;/strong&gt; is also known as general admission, reacreational, or open play. Players will usually arrive without a scheduled appointment and play with others that have just arrived as well.  A &lt;strong&gt;walk on&lt;/strong&gt; player can also be someone who is not part of a pre-paid private event or scheduled event.&lt;/p&gt;&#xA;&lt;p&gt;We occasionally offer walk-on play, also known as open play, on Saturday mornings and afternoons when we do not have scheduled events.  There is typically a better chance for larger numbers of people to play at this time.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/paintball-services/walk-on-play/</guid>
+      <description>&lt;h2 id=&#34;what-is-walk-on-play-at-area-51-paintball&#34;&gt;What Is Walk On Play At Area 51 Paintball?&lt;/h2&gt;&#xA;&lt;img data-src=&#34;http://localhost:1313/images/walk-on-play.webp&#34; class=&#34;lazy fluid-img&#34; decoding=&#34;async&#34; height=&#34;600&#34; width=&#34;1200&#34; /&gt;&#xA;&lt;p&gt;&lt;strong&gt;Walk on play&lt;/strong&gt; is also known as general admission, reacreational, or open play. Players will usually arrive without a scheduled appointment and play with others that have just arrived as well.  A &lt;strong&gt;walk on&lt;/strong&gt; player can also be someone who is not part of a pre-paid private event or scheduled event.&lt;/p&gt;&#xA;&lt;p&gt;We occasionally offer walk-on play, also known as open play, on Saturday mornings and afternoons when we do not have scheduled events.  There is typically a better chance for larger numbers of people to play at this time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Paintball Parties</title>
-      <link>https://area51paintball.net/paintball-services/paintball-parties/</link>
+      <link>http://localhost:1313/paintball-services/paintball-parties/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/paintball-services/paintball-parties/</guid>
+      <guid>http://localhost:1313/paintball-services/paintball-parties/</guid>
       <description>&lt;h2 id=&#34;birthday-bachelorbachelorette-party-corporate-event-graduation-celebration-retirement-team-building-youth-group--all-occasions&#34;&gt;Birthday, Bachelor/Bachelorette Party, Corporate Event, Graduation Celebration, Retirement, Team Building, Youth Group, &amp;amp; All Occasions&lt;/h2&gt;&#xA;&lt;p&gt;Paintball makes for an exceptional party or special event!  Parents and children always enjoy their time together on the Area 51 paintball field.&lt;/p&gt;&#xA;&lt;p&gt;We can host parties for children or adults.  Our natural setting is the perfect environment to get lost in for a few hours and enjoy the game and the company you are with.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Corporate Events</title>
-      <link>https://area51paintball.net/paintball-services/corporate-entertainment-services/</link>
+      <link>http://localhost:1313/paintball-services/corporate-entertainment-services/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/paintball-services/corporate-entertainment-services/</guid>
+      <guid>http://localhost:1313/paintball-services/corporate-entertainment-services/</guid>
       <description>&lt;p&gt;Paintball is great for team building because it allows the players to work together as a cohesive unit to achieve a goal. It also helps break down barriers between staff members, who may have previously been strangers. Cooperation, communication, and strategy are all key ingredients to the game that can be translated into decision-making in the workplace.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-paintball-and-why-does-it-work-for-team-building&#34;&gt;What is paintball and why does it work for team building?&lt;/h2&gt;&#xA;&lt;p&gt;Paintball is a team-competitive sport where players shoot each other with paint filled capsules. This is great for team building because it requires team work, critical thinking, and communication. Teams are often comprised of 5 or more players, who must communicate with each other to strategize the best way to win the game. The goal of the game is to eliminate all opposing players from play by spraying them with paint from a gun that shoots capsules filled with water-soluble dye.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Paintball Equipment Repair</title>
-      <link>https://area51paintball.net/paintball-services/paintball-equipment-repair/</link>
+      <link>http://localhost:1313/paintball-services/paintball-equipment-repair/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/paintball-services/paintball-equipment-repair/</guid>
+      <guid>http://localhost:1313/paintball-services/paintball-equipment-repair/</guid>
       <description>&lt;p&gt;Safety gear is a must when engaging in a physical activity such as paintball. Paintball equipment may be damaged from being dropped, running over by vehicle, or coming into contact with solid objects. The following tips will show you the best ways to fix your paintball equipment and get back on the field.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-paintball-equipment-and-what-does-it-need-to-be-repaired-and-maintained&#34;&gt;What is paintball equipment and what does it need to be repaired and maintained&lt;/h2&gt;&#xA;&lt;p&gt;Paintball markers are essential to playing paint ball. Paintball markers use CO2 or high-pressure air cartridges to shoot balls of paint at other players. Although paintball markers come in many different shapes and sizes, the most common type is a semi-automatic marker.  There are many benefits to owning a paintball marker, such as the fun of personalizing your own device and shooting your friends with it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Paintball Equipment Sales</title>
-      <link>https://area51paintball.net/paintball-services/paintball-equipment-sales/</link>
+      <link>http://localhost:1313/paintball-services/paintball-equipment-sales/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/paintball-services/paintball-equipment-sales/</guid>
+      <guid>http://localhost:1313/paintball-services/paintball-equipment-sales/</guid>
       <description>&lt;h2 id=&#34;area-51-paintball-equipment-the-best-paintball-gear-for-your-money&#34;&gt;Area 51 Paintball Equipment: The Best Paintball Gear For Your Money.&lt;/h2&gt;&#xA;&lt;p&gt;One of the best things about Area 51 Paintball is that they offer gear and equipment from a variety of brands. Whether you need tactical, rental or recreational paintball guns, Area 51 has it. So you are never too far from your next epic paintball game!  We make sure to only carry reputable brands that have been vetted by our players and professionals of the sport.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Area 51 Gallery</title>
-      <link>https://area51paintball.net/gallery/</link>
+      <link>http://localhost:1313/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/gallery/</guid>
+      <guid>http://localhost:1313/gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact Area 51 Paintball</title>
-      <link>https://area51paintball.net/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://area51paintball.net/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description></description>
     </item>
   </channel>
